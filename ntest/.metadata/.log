@@ -1,0 +1,66 @@
+!SESSION 2013-01-06 13:05:18.905 -----------------------------------------------
+eclipse.buildId=2.9.1.201203221000-RELEASE
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=carbon, NL=en_US
+Framework arguments:  -product com.springsource.sts.ide -keyring /Users/smask/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws carbon -arch x86 -product com.springsource.sts.ide -keyring /Users/smask/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-06 13:07:32.634
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-06 13:08:28.895
+!MESSAGE No repository found at http://update.aptana.com/update/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-06 13:08:48.538
+!MESSAGE No repository found at http://update.aptana.com/update/studio/3.5.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-06 13:08:49.788
+!MESSAGE No repository found at http://update.aptana.com/update/studio/3.7.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-06 13:08:53.195
+!MESSAGE No repository found at http://update.aptana.com/.
+!SESSION 2013-01-21 14:13:11.192 -----------------------------------------------
+eclipse.buildId=2.9.1.201203221000-RELEASE
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=carbon, NL=en_US
+Framework arguments:  -product com.springsource.sts.ide -keyring /Users/smask/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws carbon -arch x86 -product com.springsource.sts.ide -keyring /Users/smask/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-21 14:14:32.579
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-21 14:15:33.252
+!MESSAGE No repository found at http://update.aptana.com/update/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-21 14:15:51.977
+!MESSAGE No repository found at http://update.aptana.com/update/studio/3.5.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-21 14:15:56.395
+!MESSAGE No repository found at http://update.aptana.com/update/studio/3.7.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-21 14:16:00.058
+!MESSAGE No repository found at http://update.aptana.com/.
+!SESSION 2013-01-28 08:35:02.587 -----------------------------------------------
+eclipse.buildId=2.9.1.201203221000-RELEASE
+java.version=1.6.0_37
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=carbon, NL=en_US
+Framework arguments:  -product com.springsource.sts.ide -keyring /Users/smask/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws carbon -arch x86 -product com.springsource.sts.ide -keyring /Users/smask/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-28 08:36:17.587
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-28 08:37:14.416
+!MESSAGE No repository found at http://update.aptana.com/update/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-28 08:37:36.190
+!MESSAGE No repository found at http://update.aptana.com/update/studio/3.5.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-28 08:37:37.078
+!MESSAGE No repository found at http://update.aptana.com/update/studio/3.7.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-01-28 08:37:40.923
+!MESSAGE No repository found at http://update.aptana.com/.
