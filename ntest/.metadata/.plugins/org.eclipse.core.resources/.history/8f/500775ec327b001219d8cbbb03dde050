@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration</title>
+
+<style lang="stylesheet" type="text/css">
+	*{
+		box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		font-size:100%;
+		font-family:sans-serif;
+	}
+	.page {
+		position:relative;
+		width:100%;
+		margin:5px auto;
+	}
+	.header{
+		height:38px;
+		background:#777;
+		border:2px solid #333;
+		border-radius:10px 10px 10px 10px; /* IE9 requires all corners to be specified */
+		-webkit-border-radius:10px 10px 10px 10px; 
+		-moz-border-radius:10px 10px 10px 10px; 
+		margin-bottom:18px;
+		padding:4px;
+		font-size:14px;
+		color:#fff;
+	}
+	.header .title {
+		display:inline-block;
+		float:left;
+		margin-left:5px;
+		font-size:16px;
+		line-height:26px;
+	}
+	.header .links {
+		display:inline-block;
+		margin-left:5%;
+		width:35%;
+		color:#555;
+	}
+	.links ul {
+		display:inline-block;
+		background:#fff;
+		border:2px solid #333;
+		border-radius:10px 10px 10px 10px; 
+		-webkit-border-radius:10px 10px 10px 10px; 
+		-moz-border-radius:10px 10px 10px 10px;
+		padding:0;
+		margin:0;
+		width:100%;
+	}
+	.links li {
+		float:left;
+		background:#fff;
+		border-right:2px solid #333;
+		text-align:center;
+		padding:3px 3%;
+		list-style:none;
+		width:33.3333333333%;
+		cursor:pointer;
+	}
+	.links li.active {
+		background:#ccc;
+	}
+	.links ul > li:first-child {
+		border-radius: 8px 0 0 8px;
+		-webkit-border-radius: 8px 0 0 8px;
+		-moz-border-radius: 8px 0 0 8x;
+	}
+	.links ul > li:last-child {
+		border-radius:0 8px 8px 0;
+		-webkit-border-radius:0 8px 8px 0;
+		-moz-border-radius:0 8px 8px 0;
+		border-right:none;
+	}
+	.links li:hover {
+		background:#aaa;
+	}
+	.header .search {
+		display:inline-block;
+		float:right;
+		width:30%;
+	}
+	.header .search img {
+		position:absolute;
+		background:no-repeat url('glyphs.png') 0px 0px;
+		width:50%;
+		height:12px;
+	}
+	.header .search input {
+		border:2px solid #333;
+		border-radius:10px 10px 10px 10px;
+		-webkit-border-radius:10px 10px 10px 10px; 
+		-moz-border-radius:10px 10px 10px 10px;
+		font-style:italic;
+		line-height:20px;
+		height:26px;
+		padding-left:10%;
+		width:100%;
+	}
+	.header .search .close {
+		position:absolute;
+		background:#333;
+		border-radius: 7px 7px 7px 7px;
+		-webkit-border-radius: 7px 7px 7px 7px;
+		-moz-border-radius: 7px 7px 7px 7px;
+		width: 14px;
+		height: 14px;
+		font-size: 11px;
+		right: 12px;
+		top: 12px;
+		text-align: center;
+		cursor:pointer;
+	}
+	.main {
+	}
+	.main .greeting {
+		background:lightblue;
+		font-size:15px;
+		font-weight:bold;
+		border:1px dashed #333;
+		border-radius:10px 10px 10px 10px;
+		-webkit-border-radius:10px 10px 10px 10px;
+		-moz-border-radius:10px 10px 10px 10px;
+		padding:8px;
+		min-height:90px;
+	}
+	form {
+		margin:50px 0 36px 0;
+	}
+	[class*=span] {
+		display:inline-block;
+		float:left;
+		padding-top:18px;
+	}
+	.row::after {
+		display:table;
+		line-height:0;
+		content:"";
+	}
+	.span6 {
+		width:50%;
+	}
+	.span12 {
+		width:100%;
+	}
+	fieldset > div .span6:first-child, form .span12 {
+		padding-left:8%;
+	}
+	label {
+		display:inline-block;
+		font-size:14px;
+	}
+	input[type="text"] {
+		display:block;
+		border:2px solid #333;
+	}
+	fieldset {
+		border:none;
+		padding:0;
+		margin:0;
+		margin-bottom:18px;
+	}
+	.btn {
+		background:#ccc;
+		border:2px solid #333;
+		border-radius:5px 5px 5px 5px;
+		-webkit-border-radius:5px 5px 5px 5px;
+		-moz-border-radius:5px 5px 5px 5px;
+		width:20%;
+		height:40px;
+		padding:1% 4%;
+		margin-top:15px;
+		cursor:pointer;
+	}
+	.actions {
+		margin-bottom:50px;
+	}
+	a {
+		text-decoration:none;
+		color:inherit;
+	}
+	a:hover {
+		color:#aaa;
+	}
+	.actions [class*=span] {
+		background-image:url('glyphs.png');
+		background-repeat:no-repeat;
+		padding-top:25px;
+		padding-left:42px;
+		height:46px;
+		line-height:2px;
+	}
+	.search_around {
+		background-position:0 10px;
+	}
+	.snap_photo {
+		background-position:0 -96px;
+	}
+	.create_href {
+		background-position:0 -26px;
+	}
+	.make_docs{
+		background-position:0 -62px;
+	}
+	.undo_changes{
+		background-position:0 -127px;
+	}
+	.check_things{
+		background-position:0 -163px;
+	}
+	
+	@media screen and (max-width: 480px) {
+		header .links {
+			display:block;
+			margin:0;
+			width:100%;
+			margin-bottom:10px;
+		}
+		.header .search {
+			position:absolute;
+			right:5px;
+			width:40%;
+		}
+		.header .search .close {
+			top:6px;
+		}
+		[class*=span] {
+			display:block;
+			width:100%;
+		}
+		form .span12 {
+			text-align:center;
+		}
+		form {
+			margin-top:0px;
+		}
+		fieldset > div .span6:first-child, form .span12 {
+			padding-left:0;
+		}
+		fieldset, .actions {
+			width:60%;
+			margin:0 auto;
+		}
+		.btn {
+			width:50%;
+			margin-top:0;
+		}
+	}
+</style>
+
+
+</head>
+<body>
+
+	<div class="page">
+		<div class="header">
+			<div class="title">
+				Registration Form
+			</div>
+			<div class="links">
+				<ul>
+					<li>Home</li>
+					<li class="active">Register</li>
+					<li>About</li>
+				</ul>
+			</div>
+			<div class="search">
+				<input type="text" placeholder="Search" />
+				<span class="close">x</span>
+			</div>
+		</div>
+		<div class="main">
+			<div class="greeting">
+				Welcome to our registration form. We hope you will join our site and provide
+				us with your basic contact information.  We promise to never spam you with
+				any garbage whatsoever.
+			</div>
+			<form action="/" method="post">
+				<fieldset>
+					<div class="row">
+						<div class="span6">
+							<label for="name">Name</label>
+							<input id="name" name="name" type="text" />
+						</div>
+						<div class="span6">
+							<label for="phone">Phone Number</label>
+							<input id="phone" name="phone" type="text" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="span6">
+							<label for="email">E-mail Address</label>
+							<input id="email" name="email" type="text" />
+						</div>
+						<div class="span6">
+							<label for="username">Username</label>
+							<input id="username" name="username" type="text" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="span6">
+							<label for="address">Address</label>
+							<input id="address" name="address" type="text" />
+						</div>
+						<div class="span6">
+							<label for="password">Password</label>
+							<input id="password" name="password" type="text" />
+						</div>
+					</div>
+				</fieldset>
+				<div class="row">
+					<div class="span12">
+						<input id="terms" name="terms" type="checkbox" checked>
+							<label for="terms">
+								I agree to the random registration form terms of service
+							</label>
+						</input>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<input name="registerBtn" class="btn" type="submit" value="Register" />
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="actions">
+			<div class="row">
+				<div class="span6 search_around">
+					<a href="javascript:;" title="Search around">
+						Search around.
+					</a>
+				</div>
+				<div class="span6 snap_photo">
+					<a href="javascript:;" title="Snap a photo">
+						Snap a photo.
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span6 create_href">
+					<a href="javascript:;" title="Create href tags">
+						Create href tags.
+					</a>
+				</div>
+				<div class="span6 undo_changes">
+					<a href="javascript:;" title="Undo your changes">
+						Undo your changes.
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span6 make_docs">
+					<a href="javascript:;" title="Make some documents">
+						Make some documents.
+					</a>
+				</div>
+				<div class="span6 check_things">
+					<a href="javascript:;" title="Check things off your list">
+						Check things off your list.
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

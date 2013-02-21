@@ -6,248 +6,130 @@
  <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
  <language>en</language>
 <item>
- <title>SPRING FRAMEWORK 3.2.1 RELEASED</title>
- <link>http://www.springsource.org/node/3791</link>
- <description>&lt;p&gt;The first maintenance release in the Spring 3.2.x line is now available via &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework%22&quot;&gt;Maven Central&lt;/a&gt;, the &lt;a href=&quot;https://github.com/SpringSource/spring-framework/wiki/Downloading-Spring-artifacts#wiki-resolving-spring-artifacts&quot;&gt;SpringSource repository&lt;/a&gt;, or for direct download from our &lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Framework&amp;amp;version=3.2.1.RELEASE&quot;&gt;community download page&lt;/a&gt;.  This release includes over 100 &lt;a href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10000&amp;amp;version=13809&quot;&gt;bugfixes and improvements&lt;/a&gt; and is a recommended upgrade for all users.&lt;/p&gt;
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Framework&amp;amp;version=3.2.1.RELEASE&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring/docs/3.2.1.RELEASE/spring-framework-reference/html/&quot;&gt;Documentation&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring/docs/3.2.1.RELEASE/javadoc-api/&quot;&gt;Javadoc API&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring/docs/3.2.1.RELEASE/changelog.txt&quot;&gt;Change Log&lt;/a&gt; | &lt;a href=&quot;http://jira.springframework.org/browse/SPR&quot;&gt;JIRA&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-framework/docs/3.2.0.RELEASE_to_3.2.1.RELEASE/&quot;&gt;API changes from 3.2.0&lt;/a&gt;&lt;/p&gt;
-</description>
- <comments>http://www.springsource.org/node/3791#comments</comments>
- <pubDate>Thu, 24 Jan 2013 20:21:39 +0000</pubDate>
- <dc:creator>Chris Beams</dc:creator>
- <guid isPermaLink="false">3791 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>Last Minute Offer: Spring Training in Europe</title>
- <link>http://www.springsource.org/spring-last-minute-offer-feb2013</link>
- <description>&lt;p&gt;SpringSource still has some seats left for the top Spring Framework classes: Core Spring, Spring Web and Enterprise Integration with Spring in Europe. If you register now, you can &lt;b&gt;SAVE 30%&lt;/b&gt; on the remaining Spring training class seats for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 05 - 08: Core Spring in &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157574&amp;rcode=SPLPROMOCLS&quot;&gt;Brussels, Belgium&lt;/a&gt;&lt;/li&gt;&lt;li&gt;February 05 - 08: Spring Web in &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157432&amp;rcode=SPLPROMOCLS&quot;&gt;Paris, France&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: Core Spring in &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=160532&amp;rcode=SPLPROMOCLS&quot;&gt;Moscow, Russia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: Enterprise Integration with Spring in &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157995&amp;rcode=SPLPROMOCLS&quot;&gt;Brussels, Belgium&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: Enterprise Integration with Spring in &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=158873&amp;rcode=SPLPROMOCLS&quot;&gt;Prague, Czech Republic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: Core Spring in &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=142233&amp;rcode=SPLPROMOCLS&quot;&gt;Cape Town, South Africa&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+ <title>Become Spring Certified in 3 Steps</title>
+ <link>http://www.springsource.org/how-to-become-spring-certified</link>
+ <description>&lt;div style=&quot;float: right; width:114; padding: 10px&quot;&gt;&lt;a href=&quot;http://mylearn.vmware.com/mgrReg/plan.cfm?plan=31110&amp;ui=www_cert&quot;&gt;&lt;img alt=&quot;Spring Certification Logo&quot; border=&quot;0&quot; src=&quot;http://www.springsource.org/files/Spring-Cert.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;p&gt;Becoming officially &lt;strong&gt;Spring Certified&lt;/strong&gt; demonstrates your understanding of Spring and helps to advance your career as a Spring Developer. To become Spring Certified:&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;STEP 1&lt;/strong&gt;: To be fully prepared for the Spring Certification exam and to receive the Spring Certification exam voucher developers will need to attend a professional 4-day Spring training. Depending on your level of experience with Spring and your focus as a developer you can choose from:&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=one&amp;id_subject=17750&quot;&gt;Core Spring&lt;/a&gt; - leads to becoming a Spring Certified Professional&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=one&amp;id_subject=33053&quot;&gt;Spring Web&lt;/a&gt; - leads to becoming a Certified Spring Web Application Developer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=one&amp;id_subject=17833&quot;&gt;Enterprise Integration with Spring&lt;/a&gt; - leads to becoming a Certified Enterprise Integration Specialist&lt;/li&gt;&lt;/ul&gt;
 
-&lt;p&gt;Please use the following discount code in the referral field during the registration process:&lt;/p&gt;
-&lt;p&gt;Discount Code: &lt;b&gt;SPLPROMOCLS&lt;/b&gt;&lt;/p&gt;</description>
- <comments>http://www.springsource.org/spring-last-minute-offer-feb2013#comments</comments>
+&lt;p&gt;&lt;strong&gt;STEP 2&lt;/strong&gt;: After the training you will receive a SpringSource Certification exam voucher that you can use at a &lt;a href=&quot;http://www.pearsonvue.com/springsource/&quot;&gt;Pearson Vue Center&lt;/a&gt;. Pearson Vue has hundreds of locations all over the world so you are guaranteed to have an exam center near you. You can use the &lt;a href=&quot;http://www7.pearsonvue.com/Dispatcher?application=VTCLocator&amp;action=actStartApp&amp;v=W2L&amp;cid=479&quot;&gt;SpringSource Certification exam location finder&lt;/a&gt; to see what exam centers are available near you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STEP 3&lt;/strong&gt;: Take the exam, pass the exam and you are now officially Spring Certified! The Spring Certification has several advantages for you as a developer:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Advance your career&lt;/strong&gt;: The Spring Certification is the only recognized and official certification for the Spring Framework.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Show your Spring Certification Badge on LinkedIn&lt;/strong&gt;: Spring Certified developers are eligible to join the network of Spring Certified developers on LinkedIn. The certification badge will be shown on your profile and you can join in a selected group of Spring Professionals to discuss developer problems, solutions and new projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Receive the official Spring Certification&lt;/strong&gt;: You will be sent a document proving you are officially Spring Certified.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://mylearn.vmware.com/mgrReg/plan.cfm?plan=31110&amp;ui=www_cert&quot;&gt;More Spring Certification information can be found here&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/how-to-become-spring-certified#comments</comments>
  <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Wed, 23 Jan 2013 16:23:13 +0000</pubDate>
+ <enclosure url="http://www.springsource.org/files/Spring-Cert.png" length="10216" type="image/png" />
+ <pubDate>Thu, 07 Feb 2013 09:10:25 +0000</pubDate>
  <dc:creator>Mark Baars</dc:creator>
- <guid isPermaLink="false">3790 at http://www.springsource.org</guid>
+ <guid isPermaLink="false">3806 at http://www.springsource.org</guid>
 </item>
 <item>
- <title>SPRING FRAMEWORK 3.1.4 RELEASED</title>
- <link>http://www.springsource.org/node/3789</link>
- <description>&lt;p&gt;The fourth maintenance release in the Spring 3.1.x line is now available via &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework%22&quot;&gt;Maven Central&lt;/a&gt;, the &lt;a href=&quot;https://github.com/SpringSource/spring-framework/wiki/Downloading-Spring-artifacts#wiki-resolving-spring-artifacts&quot;&gt;SpringSource repository&lt;/a&gt;, or for direct download from our &lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Framework&amp;amp;version=3.1.4.RELEASE&quot;&gt;community download page&lt;/a&gt;.  This release includes over 50 &lt;a href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10000&amp;amp;version=13625&quot;&gt;bugfixes and improvements&lt;/a&gt; and is a recommended upgrade for all users.&lt;/p&gt;
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Framework&amp;amp;version=3.1.4.RELEASE&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring/docs/3.1.4.RELEASE/spring-framework-reference/html/&quot;&gt;Documentation&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring/docs/3.1.4.RELEASE/javadoc-api/&quot;&gt;Javadoc API&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring/docs/3.1.4.RELEASE/changelog.txt&quot;&gt;Change Log&lt;/a&gt; | &lt;a href=&quot;http://jira.springframework.org/browse/SPR&quot;&gt;JIRA&lt;/a&gt;&lt;/p&gt;
-</description>
- <comments>http://www.springsource.org/node/3789#comments</comments>
- <pubDate>Wed, 23 Jan 2013 14:19:26 +0000</pubDate>
- <dc:creator>Chris Beams</dc:creator>
- <guid isPermaLink="false">3789 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>This week in Spring  - 22 January, 2013 </title>
- <link>http://www.springsource.org/node/3788</link>
- <description>&lt;p&gt; Welcome to another installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt;!  
-	As usual, we&#039;ve got a lot to cover, so let&#039;s get to it! 
-	&lt;/P&gt;
-	&lt;ol&gt;
-		
-			  &lt;LI&gt; The future is now and it has a name and version - &lt;EM&gt;Spring 4.0&lt;/EM&gt;. &lt;a href=&quot;http://blog.springsource.org/2013/01/16/next-stop-spring-framework-4-0/&quot;&gt;Juergen Hoeller outlined the proposed next iteration of Spring, Spring Framework 4.0&lt;/a&gt;!  &lt;/LI&gt;	
-			
-        &lt;li&gt;If you missed the live webinar of the Spring Framework 3.2 GA release, &lt;a href=&quot;http://www.youtube.com/watch?v=fb5YG2W1srA&quot;&gt;check out the replay&lt;/a&gt;, which also has a brief discussion Spring Framework 4.0.&lt;/li&gt;
-        &lt;li&gt; Costin Leau has announced that &lt;a href=&quot;http://www.springsource.org/node/3787&quot;&gt;Spring for Apache Hadoop 1.0 RC2 is now available&lt;/a&gt;! The new release includes  dedicated namespace support for Cascading, enhanced compatibility with Cloudera CDH3 and 4,  
-        enhanced integration with Spring Batch and Hadoop, safer job cancellation and improved documentation. &lt;/li&gt;
-        &lt;li&gt;Andrew Clement announced that &lt;a href= &quot;http://blog.springsource.org/2013/01/08/scripted-editor-0-3-release-available/&quot;&gt;the 0.3 release of the Scripted editor is now available&lt;/a&gt;.  There are many new features, including easier installation (now available through Node Package Manager - &lt;code&gt;npm&lt;/code&gt;). &lt;/li&gt;
-              &lt;li&gt; Roy Clarkson has announced that &lt;a href=&quot;http://www.springsource.org/node/3784&quot;&gt; Spring Mobile 1.1.0.M2 has been released&lt;/a&gt; with many new features including a   Spring MVC &lt;code&gt;ViewResolver&lt;/code&gt; that resolves the view based on &lt;code&gt;Device&lt;/code&gt; and &lt;code&gt;SitePreference&lt;/code&gt;, and then forwards to the correct, delegate &lt;code&gt;ViewResolver&lt;/code&gt;. &lt;/li&gt;
-        &lt;li&gt;Join Scott Andrews as he discusses the role of Javascript in an exciting webinar on  January 24, 2013: &lt;a href=&quot;http://www.springsource.org/node/3767&quot; title=&quot;Webinar: Architecture of a Modern Web App&quot;&gt; Architecture of a Modern Web App&lt;/a&gt;. &lt;/li&gt;
-        &lt;li&gt;Join Brian Cavalier and John Hann as they discuss Inversion of Control (IoC) and Javascript in a Webinar on January 31, 2013: &lt;a href=&quot;http://www.springsource.org/node/3768&quot;&gt;IOC + Javascript&lt;/a&gt;.&lt;/li&gt;
-        &lt;li&gt; Martin Lippert, Andy Clement, and Andrew Eisenberg&#039;s presentation from 
-        SpringOne2GX 2012, &lt;a href= &quot;http://www.infoq.com/presentations/Tools-JavaScript-Orion-Scripted&quot;&gt;
-        &lt;EM&gt;Tooling for the JavaScript era&lt;/EM&gt;&lt;/a&gt;, is now available online from InfoQ.     &lt;/li&gt;
-        &lt;li&gt; The SpringOne 2GX 2012    replay of &lt;a href=&quot;http://www.springsource.org/node/3783&quot;&gt; &lt;em&gt;Automated Provisioning of Spring Applications to EC2 and VMware Cloud&lt;/em&gt;&lt;/a&gt; is now available. &lt;/li&gt;
-        &lt;li&gt; Nicolas Frankel has a nice post on how &lt;a href=&quot;http://blog.frankel.ch/dry-your-spring-beans-configuration-file&quot;&gt;to inherit configuration from parent bean definitions  to reduce redundant configuration&lt;/a&gt;. Nice!  &lt;/li&gt;
-        &lt;li&gt; Arnaud Cogoluègnes has a nice post on &lt;A href=&quot;http://blog.zenika.com/index.php?post/2013/01/15/spring-mvc-test-framework&quot;&gt;how to use the Spring MVC test framework&lt;/a&gt; &lt;/li&gt;
-        &lt;li&gt; Taking the example further, Arnaud also shows how to &lt;a href=&quot;http://blog.zenika.com/index.php?post/2013/01/15/REST-Web-Services-testing-with-Spring-MVC&quot;&gt;test Spring MVC REST controllers using the Spring MVC test framework&lt;/a&gt;.   &lt;/li&gt;
-        &lt;li&gt; Tomasz Nurkiewicz has put together &lt;a href= &quot;http://nurkiewicz.blogspot.de/2013/01/spring-data-jdbc-generic-dao.html&quot;&gt;
-        a Spring Data Repository implementation for JDBC&lt;/a&gt;. That&#039;s really cool! I can&#039;t wait to give this a try!        &lt;/li&gt;
-        &lt;li&gt;  Tobias Fiohre has a nice 
-        introduction to the ideas  enabled by &lt;A href=&quot;http://blog.codecentric.de/en/2013/01/a-real-roca-using-bootstrap-jquery-thymeleaf-spring-hateoas-and-spring-mvc/&quot;&gt;Spring HATEOAS (&lt;EM&gt;ROCA&lt;/EM&gt;, or resource-oriented client architectures)
-          complete with a sample application and code&lt;/a&gt;! Nicely done, Tobias!&lt;/li&gt;
-&lt;/ol&gt; 
-</description>
- <comments>http://www.springsource.org/node/3788#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/14">This Week in Spring</category>
- <pubDate>Mon, 21 Jan 2013 22:01:21 +0000</pubDate>
- <dc:creator>Josh Long</dc:creator>
- <guid isPermaLink="false">3788 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>Spring for Apache Hadoop 1.0 RC2 Released</title>
- <link>http://www.springsource.org/node/3787</link>
- <description>&lt;p&gt;Dear Spring Community,&lt;br /&gt;
-I am pleased to announce the second, and last planned, release candidate, 1.0 RC2 for Spring for Apache Hadoop:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Data%20Hadoop&amp;amp;version=1.0.0.RC2&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/hadoop/docs/1.0.0.RC2/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/hadoop/docs/1.0.0.RC2/reference/html/&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://static.springframework.org/spring-data/hadoop/docs/1.0.0.RC2/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;RC2 provides bug fixes and improvements and enhances the overall usability:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.springsource.org/node/3787&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
- <comments>http://www.springsource.org/node/3787#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Mon, 21 Jan 2013 16:17:53 +0000</pubDate>
- <dc:creator>Costin Leau</dc:creator>
- <guid isPermaLink="false">3787 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>Spring Mobile 1.1.0.M2 Released</title>
- <link>http://www.springsource.org/spring-mobile/news/1.1.0.m2-released</link>
- <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
-
-&lt;p&gt;We are happy to announce the release of &lt;a href=&quot;http://www.springsource.org/spring-mobile&quot;&gt;Spring Mobile&lt;/a&gt; 1.1.0.M2!&lt;/p&gt;
-
-&lt;p&gt;Spring Mobile provides extensions to Spring MVC that aid in the development of cross-platform mobile web applications.&lt;/p&gt;
-
-&lt;p&gt;This release adds LiteDeviceDelegatingViewResolver, a ViewResolver implementation that adjusts the view name based on Device and SitePreference. It then delegates to another ViewResolver to complete the process of resolving the view. This release is built and tested against Spring Framework 3.2. See the &lt;a href=&quot;http://static.springsource.org/spring-mobile/docs/1.1.0.M2/changelog.txt&quot;&gt;changelog&lt;/a&gt; and &lt;a href=&quot;http://static.springsource.org/spring-mobile/docs/1.1.0.M2/reference/html/&quot;&gt;reference manual&lt;/a&gt; for more information. Many thanks to the community for their support with regard to this new feature, including Scott Rossillo for his initial pull request and Neale Upstone for his input and feedback.&lt;/p&gt;
-
-&lt;p&gt;To retrieve the software, 
-&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Mobile&quot;&gt;download&lt;/a&gt; the release distribution, or add the &lt;a href=&quot;http://static.springsource.org/spring-mobile/docs/1.1.0.M2/reference/html/spring-mobile-device.html#spring-mobile-device-howtoget&quot;&gt;maven artifacts&lt;/a&gt; to your project. Sample apps are available at &lt;a href=&quot;https://github.com/SpringSource/spring-mobile-samples&quot;&gt;github.com/SpringSource/spring-mobile-samples&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you are building a mobile web app, we encourage you try out Spring Mobile 1.1.0.M2 and &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=85&quot;&gt;collaborate&lt;/a&gt; with us on the next iteration of the project.&lt;/p&gt;</description>
- <comments>http://www.springsource.org/spring-mobile/news/1.1.0.m2-released#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Thu, 17 Jan 2013 16:16:16 +0000</pubDate>
- <dc:creator>Roy Clarkson</dc:creator>
- <guid isPermaLink="false">3785 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>This Week in Spring  - January 15th, 2012</title>
- <link>http://www.springsource.org/node/3784</link>
- <description>	 Welcome to another installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt;! Can you believe we&#039;re already halfway through January?  We&#039;ve got a &lt;EM&gt;lot&lt;/EM&gt; to cover, so let&#039;s press on!  In particular, there&#039;s a &lt;EM&gt;lot&lt;/EM&gt; of great video content to keep you occupied for hours this week. Enjoy! 
-	 &lt;/P&gt; 
-     &lt;OL&gt;
-  
-	&lt;li&gt;Join Scott Andrews as he discusses the role of Javascript in an exciting webinar on  January 24, 2013: &lt;a href=&quot;http://www.springsource.org/node/3767&quot; title=&quot;Webinar: Architecture of a Modern Web App&quot;&gt; Architecture of a Modern Web App&lt;/a&gt;.&lt;/li&gt;
-	&lt;LI&gt;Join Brian Cavalier and John Hann as they discuss Inversion of Control (IoC) and Javascript in a Webinar on January 31, 2013: &lt;a href=&quot;http://www.springsource.org/node/3768&quot;&gt;IOC + Javascript&lt;/a&gt;.&lt;/LI&gt;
-	&lt;LI&gt;The &lt;EM&gt;A thought with a cup of coffee!!!&lt;/EM&gt; blog has an  introductory post  comparing   
-		&lt;a href=&quot;http://techythought.wordpress.com/2013/01/12/92/&quot;&gt;Spring&#039;s &lt;CODE&gt;ApplicationContext&lt;/CODE&gt;   to the  more general class, the  &lt;CODE&gt;BeanFactory&lt;/CODE&gt;&lt;/a&gt;.
-		
-   
-    &lt;/LI&gt;  
-	&lt;LI&gt; Last year in April, I spoke at the &lt;EM&gt;Great Indian Developer Summit&lt;/EM&gt; in 
-	Bangalore, India. The show was amazing and - I&#039;ve just been made aware - some of the videos 
-	are starting to trickle online.  One talk I gave was &lt;a href =&quot;http://cloud.dzone.com/articles/spring-and-cloud-foundry&quot;&gt;&lt;EM&gt;Spring and Cloud Foundry: a Marriage Made in Heaven&lt;/em&gt;&lt;/a&gt;, which you can watch online. Unfortunately, they don&#039;t seem to also have the slides! 
-		 You can get the slides from my &lt;a href=&quot;http://slideshare.net/joshlong&quot;&gt;SlideShare.net profile page&lt;/a&gt;. There are multiple permutations of this deck. Enjoy!
-		&lt;/LI&gt; 
-
-&lt;LI&gt;We released &lt;a href=&quot;http://www.springsource.org/node/3783&quot;&gt;two new SpringOne2GX session replays&lt;/a&gt;, Automated Provisioning of Spring Apps to EC2 &amp;amp; VMware vCloud, and Addressing the Big Data Challenge with a Graph: Spring Data Neo4j.&lt;/LI&gt;
- &lt;LI&gt;  Did you miss Jan Machacek&#039;s fantastic talk, &lt;A href=&quot;http://www.infoq.com/presentations/Akka-Scala-Spring&quot;&gt;Akka Eye for the Spring Guy or Gal&lt;/a&gt;, from SpringOne2GX 2012? This video is &lt;EM&gt;also&lt;/EM&gt; available on InfoQ!
-	 &lt;/LI&gt;
-		&lt;LI&gt;The &lt;EM&gt;Java Code Geeks&lt;/EM&gt; blog has &lt;A href=&quot;http://www.javacodegeeks.com/2013/01/spring-mvc-customizing-requestmappinghandlermapping.html&quot;&gt;a nice dissection of the way Spring MVC&#039;s &lt;CODE&gt;RequestMappingHandlerMapping&lt;/CODE&gt;&lt;/a&gt; class works. &lt;/LI&gt;
-  &lt;LI&gt; Roy Clarkson and Craig Walls&#039; talk, &lt;a href=&quot;http://www.infoq.com/presentations/Spring-MVC-Mobile&quot;&gt;&lt;EM&gt;Extending Spring MVC with Spring Mobile and JavaScript&lt;/EM&gt;&lt;/a&gt;, is &lt;EM&gt;also&lt;/EM&gt; now available on InfoQ!   &lt;/LI&gt;
-    &lt;LI&gt; Want to &lt;a href=&quot;http://www.dineshonjava.com/2012/06/spring-30-baby-step-to-learn.html&quot;&gt;take baby steps in learning core Spring 3.0&lt;/a&gt;?  This blog&#039;s for you!&lt;/a&gt; &lt;/LI&gt;	 
- 	&lt;LI&gt;
-		&lt;Em&gt;Brian&#039;s Java blog&lt;/EM&gt; has a fairly exhaustive introduction to building a 
-	&lt;a href=&quot;http://briansjavablog.blogspot.com/2013/01/spring-web-services-tutorial.html&quot;&gt;		SOAP-based web service using Spring Web Services&lt;/a&gt;. Definitely worth a read if you need to build
-		contract-first, document-literal	SOAP webservices!
-		&lt;/li&gt;
-&lt;LI&gt; 
-Mark Reddy&#039;s written a nice blog on how to
-
-&lt;a href=&quot;http://markreddy.ie/spring-autowiring-using-qualifier/&quot;&gt;use Spring&#039;s &lt;EM&gt;autowiring&lt;/EM&gt; capability in conjunction with
-the &lt;CODE&gt;@Qualifier&lt;/CODE&gt; annotation&lt;/a&gt;.
+ <title>This Week in Spring  - Feb 5th, 2013</title>
+ <link>http://www.springsource.org/node/3805</link>
+ <description> 
+&lt;P&gt; Welcome back to another installment of &lt;EM&gt;This Week in Spring &lt;/EM&gt;--  
 	
-	&lt;/li&gt;	
-&lt;LI&gt; 
-	The &lt;EM&gt;Kruders&lt;/EM&gt; blog has an  (I confess) 
-	&lt;a href=&quot;http://kruders.com/spring/spring-log4j-maven-example&quot;&gt;
-	&lt;EM&gt;very&lt;/EM&gt; introductory  look 
-	at how to setup a Spring MVC project with Log4j&lt;/a&gt;, but, sometimes, this is exactly what you need! &lt;/LI&gt;
-	 
-&lt;LI&gt;
-	The &lt;EM&gt;Java Creed&lt;/EM&gt; blog has a &lt;a href=&quot;http://www.javacreed.com/caching-made-easy-with-spring&quot;&gt;nice introduction to Spring&#039;s caching support as of 3.1&lt;/a&gt;.
-	&lt;/li&gt;	
+There&#039;s some great video content is available online this week, so be sure to  check the content out. Also, you asked and we are delivering - we now maintain an single index page for all &lt;a href=&quot;https://springone2gx.com/conference/washington/2012/10/video_list&quot;&gt;SpringOne2GX recordings&lt;/a&gt; along with the link to the InfoQ page for their recordings of the event. On with the roundup!&lt;/p&gt;
 
- 	&lt;LI&gt; 
-	Christos Matskas has put together a nice post on how to 
-	&lt;a href=&quot;http://softwarelounge.co.uk/archives/1411&quot;&gt;handle multiple object definition files
-	with Spring.NET&lt;/a&gt;
-	&lt;/li&gt;	
- 		&lt;LI&gt; 
-	The &lt;Em&gt;HMKCode&lt;/EM&gt; blog &lt;EM&gt;also&lt;/EM&gt; has a
-		
-		&lt;A href=&quot;http://hmkcode.com/?p=38&quot;&gt; nice introductory look at core Spring&lt;/a&gt;. 
-	&lt;/li&gt; 
-	&lt;LI&gt; 
-		The &lt;EM&gt;Kani Notes&lt;/EM&gt; blog has &lt;A href=&quot;http://kaninotes.blogspot.com/2013/01/data-access-with-spring-jdbc-note-1.html&quot;&gt;a nice introduction to data-access logic with Spring and JDBC&lt;/a&gt;. Old school but still cool!
-		&lt;/li&gt; 	
-			&lt;LI&gt;
-				Xavier Padro&#039;s written a nice post &lt;A href=&quot;http://xpadro.blogspot.com/2013/01/testing-webflow-2-with-inheritance.html&quot;&gt;on how to test WebFlow 2 flows with inheritance&lt;/a&gt;.
-				&lt;/li&gt; 	
-				&lt;LI&gt;
-					The &lt;EM&gt;fpqqchao&lt;/EM&gt; blog has a nice post &lt;a href=&quot;http://www.cnblogs.com/fpqqchao/archive/2013/01/09/2852181.html&quot;&gt; on using Spring&#039;s  &lt;CODE&gt;RoutingDataSource&lt;/CODE&gt;&lt;/a&gt;.  The post is in Chinese, however, so have your Google Translate (or equivalent) plugin&#039;s handy!
-					&lt;/li&gt; 
-				&lt;LI&gt;
-			 Mashooq Badar has put together  a nice  post &lt;a href=&quot;http://mashb.wordpress.com/2013/01/12/spring-integration-based-dispatcher-worker-with-worker-queues&quot;&gt;on building a master/worker architecture with Spring Integration&lt;/a&gt;.
-					&lt;/li&gt;
-				&lt;LI&gt;Also, due to some issues with audio/video rendering, we&#039;ve released a remastered recording of a November webinar: &lt;a href=&quot;http://www.youtube.com/watch?v=KEHUHNzb_ow&quot;&gt;Data Access with Spring -- Getting the most out of JPA, JDBC and REST&lt;/a&gt;&lt;/li&gt;
-				&lt;li&gt; Scott Andrews&#039; epic talk from SpringOne2GX 2012  - &lt;a href=&quot;http://www.infoq.com/presentations/Web-App-Meteor-Derby&quot;&gt; &lt;em&gt;Architecture of a Modern Web App&lt;/em&gt;&lt;/a&gt; - is now available online on InfoQ.    Don&#039;t miss this month webinar (above) for an updated talk.&lt;/li&gt;
-                &lt;li&gt; Ben Hale gave a very well received talk  on &lt;a href=&quot;http://www.infoq.com/presentations/REST-API-Spring-MVC&quot;&gt;RESTful API design with Spring MVC&lt;/a&gt; at SpringOne2GX, which you can also find online at InfoQ.
-                  &lt;h1 id=&quot;title&quot;&gt;&amp;nbsp;&lt;/h1&gt;
-                &lt;/li&gt;	
+&lt;OL&gt;
+  &lt;LI&gt;  Rossen Stoyanchev has announced the &lt;a href=&quot;http://www.springsource.org/node/3801&quot;&gt;2.4M1 and 2.3.2 releases of Spring Web Flow&lt;/a&gt;.&lt;/LI&gt;
+         &lt;li&gt;Dream team Sam Brannen (Swiftmind) &amp;amp; Rossen Stoyanchev (SpringSource) join forces on Feb 21st, 2013 for a &lt;a href=&quot;http://www.springsource.org/node/3800&quot;&gt;Webinar: Testing Web Applications with Spring 3.2&lt;/a&gt;&lt;/li&gt;
+         &lt;li&gt;Dave Syer is taking his SpringOne2GX talk to an online audience on Feb 14th, 2013&lt;a href=&quot;http://www.springsource.org/node/3799&quot;&gt; When and Why Would I Use OAuth2?&lt;/a&gt;&lt;/li&gt;
+         &lt;li&gt; Jeremy Grelle&#039;s talk from SpringOne2GX 2012  introducing practical patterns &lt;a href=&quot;http://www.springsource.org/node/3803&quot;&gt;for asynchronous,  push-enabled applications is now available online&lt;/a&gt;. &lt;/li&gt;
+         &lt;LI&gt;Craig Walls&#039;  presentation from SpringOne2GX 2012 &lt;A href=&quot;http://www.springsource.org/node/3802&quot;&gt;Introducing Spring Social&lt;/a&gt; is now available on YouTube in HD.&lt;/LI&gt;
+         &lt;LI&gt;Craig Walls&#039;  Javascript - focused talk from SpringOne2GX 2012 &lt;a href=&quot;http://www.springsource.org/node/3802&quot;&gt;Client Side UI Smackdown&lt;/a&gt;,  is now available on YouTube in HD.&lt;/LI&gt;
+	&lt;LI&gt; Over on InfoQ China (where the content is in Chinese...),  blogger  Ding Xuefeng has done a marvelous job shining &lt;a href=&quot;http://www.infoq.com/cn/news/2013/01/spring-subprojects&quot;&gt;a light on some of the various Spring sub-projects, including Spring Data, Spring Batch, Spring Integration&lt;/a&gt;.  Definitely worth a read!	
+  &lt;/LI&gt;
+	&lt;LI&gt; The slides from Spring framework  committer &lt;a href  =&quot;http://www.swiftmind.com/de/2013/01/30/spring-framework-3-2-whats-new-slides-from-swiss-jug/&quot;&gt;Sam Brannen&#039;s talk on Spring Framework 3.2 are available, and make for a fascinating read&lt;/a&gt;. &lt;/LI&gt;
+	&lt;LI&gt; This blog explains how to  lookup and use a &lt;A href=&quot;http://www.scarba05.co.uk/blog/2013/01/sending-email-using-smtp-authentication-with-tomcat-jndi-resource/&quot;&gt;JavaMail &lt;CODE&gt; Session&lt;/CODE&gt; as configured in Tomcat&#039;s JNDI from a Spring application&lt;/a&gt;. 
+  &lt;/LI&gt;
+	&lt;LI&gt;
+The &lt;EM&gt;softtech&lt;/EM&gt; blog has a code-heavy post introducing how to &lt;A href=&quot;http://softtechgmr.blogspot.com/2013/02/spring-data-jpa-onetomany-example.html&quot;&gt;create a one-to-many relationship using Spring Data JPA&lt;/a&gt;.
+  &lt;/LI&gt;
  
- 
+	&lt;LI&gt;The &lt;EM&gt;Guident&lt;/EM&gt; blog has a nice &lt;a href=&quot;http://blog.guident.com/2013/01/spring-into-apache-hadoop/&quot;&gt;post introducing  Spring Data Hadoop&#039;s support for HBase.&lt;/a&gt; &lt;/LI&gt;
+	
+	&lt;LI&gt; The &lt;EM&gt;Dinesh on Java&lt;/EM&gt; blog has a nice post on  &lt;A href=&quot;http://www.dineshonjava.com/2013/01/spring-data-mongodb-update-document.html&quot;&gt;how to use Spring Data MongoDB to update a document&lt;/a&gt;.  &lt;/LI&gt;
+		&lt;LI&gt; The &lt;EM&gt;New Fast Money&lt;/EM&gt; blog has a look at content from SpringOne2GX introducing the &lt;a href=&quot;http://newfastmoney.com/2013/02/01/an-introduction-to-broadleaf-commerce-a-spring-enabled-e-commerce-framework/&quot;&gt;Broadleaf commerce engine that is written entirely in Spring&lt;/a&gt;. &lt;/LI&gt;  
+
+
+
   
+
 &lt;/ol&gt;</description>
- <comments>http://www.springsource.org/node/3784#comments</comments>
+ <comments>http://www.springsource.org/node/3805#comments</comments>
  <category domain="http://www.springsource.org/taxonomy/term/14">This Week in Spring</category>
- <pubDate>Wed, 16 Jan 2013 00:22:08 +0000</pubDate>
+ <pubDate>Wed, 06 Feb 2013 02:45:47 +0000</pubDate>
  <dc:creator>Josh Long</dc:creator>
- <guid isPermaLink="false">3784 at http://www.springsource.org</guid>
+ <guid isPermaLink="false">3805 at http://www.springsource.org</guid>
 </item>
 <item>
- <title>SpringOne 2GX 2012 Replays: Automated Provisioning of Spring Apps to EC2 &amp; VMware vCloud, Addressing the Big Data Challenge with a Graph</title>
- <link>http://www.springsource.org/node/3783</link>
- <description>&lt;H1&gt;Automated Provisioning of Spring Apps to EC2 &amp;amp; VMware vCloud&lt;/H1&gt;
+ <title>SpringOne 2GX 2012 Replays: Going Async - Practical Patterns for Push-Enabled Applications</title>
+ <link>http://www.springsource.org/node/3803</link>
+ <description>&lt;H1&gt;Going Async - Practical Patterns for Push-Enabled Applications&lt;/H1&gt;
 &lt;DIV&gt;
-  &lt;p&gt;This session will focus on deploying and managing your Spring   Application in the cloud using VMware vFabric Application Director.  A   series of Spring applications, increasing in complexity, will be   deployed.  The deployments will cover generating property files and   activating Spring profiles.  Some other highlights of the presentation   will be deploying to VMWare vCloud &amp;amp; EC2, updating an existing   deployment, and some general tips &amp;amp; tricks.&lt;/p&gt;
-  &lt;p&gt;The session will begin by using a simple contact application to be   deployed as a standalone webapp with an in memory DB on single node,   then it will continue with a more advanced example using PostgreSQL DB   on a separate node, and finally demonstrate the use and configuration of   an external DB &amp;amp; an Apache proxy.  The session will conclude with   the deployment and discussion of Nanotrader, a sample trading   application, with complex requirements.&lt;/p&gt;
-  &lt;p&gt;&lt;center&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/rJSUc15T7ek&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;
+  &lt;p&gt;Web and mobile clients are getting continually more sophisticated as   client processing power continues to increase and much richer APIs are   provided by the given platform. One of the most mind-bending shifts that   is occurring is in transitioning from a world of purely   request-response, to the world of client-server full duplex   communication that is enabled by the latest smart client platforms. &lt;/p&gt;
+  &lt;p&gt;This session will explore the new patterns of interaction that are   enabled by the latest communication methods such as WebSockets and   Push-to-Device services, as well as the practical concerns of actually   implementing such patterns in an application using tools such as SockJS,   RabbitMQ and Spring.&lt;/p&gt;
+  &lt;p&gt;&lt;center&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/-erRR3ZU21I&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;
 &lt;/p&gt;
   &lt;BR&gt;
 &lt;/DIV&gt;
 &lt;DIV&gt;
   &lt;center&gt;
   &lt;/center&gt;
-  &lt;div&gt;
-    &lt;h2&gt;About Brian Dussault&lt;/h2&gt;
-    &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/brian_dussault&quot;&gt;&lt;img src=&quot;http://www.springone2gx.com/s/images/bio/40986_Dussault_20110418_105856_medium_sq.jpg&quot; alt=&quot;Brian Dussault&quot; /&gt;&lt;/a&gt;
-    &lt;p&gt;Brian Dussault is a Staff Engineer with the vFabric division of   VMware and has 14+ years of experience in software engineering.   Throughout his tenure, he has worked in both IT (High Tech   Manufacturing, Financial Industries) and R&amp;amp;D positions. His   experience spans multiple disciplines including web applications,   integration, SOA, open source, and system design.&lt;/p&gt;
-    &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/brian_dussault&quot;&gt;More About Brian »&lt;/a&gt;
-    &lt;h2&gt;&lt;br /&gt;
-    &lt;/h2&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;h2&gt;About David Winterfeldt&lt;/h2&gt;
-    &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/david_winterfeldt&quot;&gt;&lt;img src=&quot;http://www.springone2gx.com/s/images/bio/19942_Winterfeldt_20120813_162236_medium_sq.jpg&quot; alt=&quot;David Winterfeldt&quot; /&gt;&lt;/a&gt;
-    &lt;p&gt;David Winterfeldt works at VMware on the &lt;a href=&quot;http://www.vmware.com/products/application-platform/vfabric-application-director/overview.html&quot;&gt;VMware vFabric Application Director&lt;/a&gt; project. It enables developers and organizations to deploy applications   to the cloud by having a logical abstraction for software services and   application topologies.  This allows an application to be easily   deployed multiple times to different environments. &lt;/p&gt;
-    &lt;p&gt; &lt;/p&gt;
-    &lt;p&gt;David has been doing software development for over 20 years. He&#039;s   been using Java since 1998 and involved in using Open Source almost as   long.  David has focused on Web and Enterprise development for most of   his career, and started working with the Spring Framework in 2006. &lt;/p&gt;
-    &lt;p&gt; &lt;/p&gt;
-    &lt;p&gt;David runs the website &lt;a href=&quot;http://www.springbyexample.org/&quot;&gt;Spring by Example&lt;/a&gt;,   which is a site for sharing Spring examples.  The site is a general   resource for Spring and should ultimately save developers time.  He&#039;s is   also an Apache committer on &lt;a href=&quot;http://struts.apache.org/&quot;&gt;Struts&lt;/a&gt; and &lt;a href=&quot;http://commons.apache.org/validator/&quot;&gt;Commons Validator&lt;/a&gt;, as well as the creator of &lt;a href=&quot;http://commons.apache.org/validator/&quot;&gt;Commons Validator&lt;/a&gt; (although currently no longer active on either).&lt;/p&gt;
-  &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/david_winterfeldt&quot;&gt;More About David »&lt;/a&gt;&lt;/div&gt;
-&lt;/DIV&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;h1&gt;Addressing the Big Data Challenge with a Graph&lt;/h1&gt;
 &lt;div&gt;
-  &lt;p&gt;Graphs are everywhere. From websites adding social capabilities to   Telcos providing personalized customer services, to innovative   bioinformatics research, organizations are adopting graph databases as   the best way to model and query connected data. If you can whiteboard,   you can model your domain in a graph database.&lt;/p&gt;
-  &lt;p&gt;In this session Emil Eifrem provides a close look at the graph model   and offers best use cases for effective, cost-efficient data storage and   accessibility.&lt;/p&gt;
-  &lt;p&gt;Take Aways:  Understand the model of a graph database and how it compares to document and relational databases  Understand why graph databases are best suited for the storage, mapping and querying of connected data&lt;/p&gt;
-  &lt;p&gt;Emil&#039;s presentation will be followed by a Hands-on Guide to Spring   Data Neo4j.  Spring Data Neo4j provides straightforward object persistence into the   Neo4j graph database. Conceived by Rod Johnson and Neo Technology CEO   Emil Eifrem, it is the founding project of the Spring Data effort. The   library leverages a tight integration with the Spring Framework and the   Spring Data infrastructure. Besides the easy to use object graph mapping   it offers the powerful graph manipulation and query capabilities of   Neo4j with a convenient API. &lt;/p&gt;
-  &lt;p&gt;The talk introduces the different aspects of Spring Data Neo4j and shows applications in several example domains. &lt;/p&gt;
-  &lt;p&gt;During the session we walk through the creation of a engaging sample   application that starts with the setup and annotating the domain   objects. We see the usage of Neo4jTemplate and the powerful repository   abstraction. After deploying the application to a cloud PaaS we execute   some interesting query use-cases on the collected data. &lt;/p&gt;
+    &lt;div&gt;
+      &lt;h2&gt;About Jeremy Grelle&lt;/h2&gt;
+      &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/jeremy_grelle&quot;&gt;&lt;img src=&quot;http://www.springone2gx.com/s/images/bio/12966_Grelle_20110418_112636_medium_sq.jpg&quot; alt=&quot;Jeremy Grelle&quot; /&gt;&lt;/a&gt;
+      &lt;p&gt;Jeremy Grelle is an open source software engineer with SpringSource,   a division of VMware, who specializes in bringing the cutting-edge   techniques of web application development to the Java and Spring   ecosystems. He is the creator of the Spring JavaScript, Spring Faces,   and Spring BlazeDS Integration projects, and he represented SpringSource   on the JSR-314 Expert Group for JSF 2.0. He is a software artisan with   extensive experience in combining server-side Java with the latest web   browser technologies to deliver a rich and usable experience for the end   user on the web. &lt;/p&gt;
+      &lt;p&gt; &lt;/p&gt;
+      &lt;p&gt;Jeremy is a frequent speaker at industry conferences such as JavaOne,   The Spring Experience, SpringOne, JSFOne, TheServerSide Java Symposium,   and Java and Flex user group events, and always enjoys getting out and   showing his fellow developers how to bend web browsers to their will and   the possibilities of what can be created with Spring and its wealth of   complimentary web technologies.&lt;/p&gt;
+      &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/jeremy_grelle&quot;&gt;More About Jeremy »&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+ <comments>http://www.springsource.org/node/3803#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 05 Feb 2013 22:33:34 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3803 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringOne 2GX 2012 Replays: Client Side UI Smackdown, Making Connections with Spring Social</title>
+ <link>http://www.springsource.org/node/3802</link>
+ <description>&lt;H1&gt;Making Connections with Spring Social&lt;/H1&gt;
+&lt;DIV&gt;
+  &lt;p&gt;The modern web is rich with APIs that can be consumed by other   applications, enabling an integrated experience for the users who hold   accounts on the websites that front those APIs. Many of these APIs are   secured with OAuth, an authorization specification for securing REST   APIs. Spring Social is an extension to the Spring Framework that enables   Spring applications to establish connections with those APIs on behalf   of their users with little or no need to muck about in the intricacies   of OAuth. &lt;/p&gt;
+  &lt;p&gt;In this session, we&#039;ll explore how Spring Social brings API   connectivity to Spring applications. We&#039;ll also uncover the newest   features of Spring Social that make it easier than ever to link your   application&#039;s users to the identities they maintain on various sites   across the web.&lt;/p&gt;
+  &lt;p&gt;&lt;center&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/boUwhyLdMBs&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;
+&lt;/p&gt;
+  &lt;BR&gt;
+&lt;/DIV&gt;
+&lt;DIV&gt;
+  &lt;center&gt;
+  &lt;/center&gt;
+&lt;div&gt;
+    &lt;div&gt;
+      &lt;h2&gt;About Craig Walls&lt;/h2&gt;
+      &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/craig_walls&quot;&gt;&lt;img src=&quot;http://www.springone2gx.com/s/images/bio/38_Walls_20110408_053039_medium_sq.jpg&quot; alt=&quot;Craig Walls&quot; /&gt;&lt;/a&gt;
+      &lt;p&gt;Craig Walls has been professionally developing software for almost   18 years (and longer than that for the pure geekiness of it). He is a   senior engineer with SpringSource as the Spring Social project lead and   is the author of Spring in Action and XDoclet in Action (both published   by Manning) and Modular Java (published by Pragmatic Bookshelf). He&#039;s a   zealous promoter of the Spring Framework, speaking frequently at local   user groups and conferences and writing about Spring and OSGi on his   blog. When he&#039;s not slinging code, Craig spends as much time as he can   with his wife, two daughters, 4 birds and 3 dogs.&lt;/p&gt;
+    &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/craig_walls&quot;&gt;More About Craig »&lt;/a&gt;    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h1&gt;Client-Side UI Smackdown&lt;/h1&gt;
+&lt;div&gt;
+  &lt;p&gt;In the modern web, user interfaces are expected to be rich, highly   responsive, and available anytime, anywhere, and on any device.   Round-trip server-side HTML rendering doesn&#039;t fit the bill any longer   and numerous JavaScript frameworks have stepped forward to simplify   development of client-side user-interfaces. With so many great options   available, we now face a paradox of choice and it can be difficult to   decide which UI framework best suits our needs.&lt;/p&gt;
+  &lt;p&gt;In this session we&#039;ll explore a handful of the most popular   client-side UI frameworks, including Backbone, Knockout, Sammy, and   Spine (and others) weighing their strengths and weaknesses and helping   decide which framework is most suitable for a given set of UI goals.&lt;/p&gt;
   &lt;p&gt;
     &lt;center&gt;
-      &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/IOYO8mtppFs&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+      &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/GM6FNnYh9a8&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
     &lt;/center&gt;
   &lt;/p&gt;
   &lt;br /&gt;
@@ -258,180 +140,241 @@ the &lt;CODE&gt;@Qualifier&lt;/CODE&gt; annotation&lt;/a&gt;.
   &lt;/div&gt;
   &lt;div&gt;
     &lt;div&gt;
-      &lt;h2&gt;About Emil Eifrem&lt;/h2&gt;
-      &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/emil_eifrem&quot;&gt;&lt;img src=&quot;http://www.springone2gx.com/s/images/bio/48216_Eifrem_20111026_095447_medium_sq.jpg&quot; alt=&quot;Emil Eifrem&quot; /&gt;&lt;/a&gt;
-      &lt;p&gt;Emil Eifrem is CEO of Neo Technology and co-founder of the Neo4j   project. Before founding Neo, he was the CTO of Windh AB, where he   headed the development of highly complex information architectures for   Enterprise Content Management Systems. Committed to sustainable open   source, he guides Neo along a balanced path between free availability   and commercial reliability. Emil is a frequent conference speaker and   author on NOSQL databases.&lt;/p&gt;
-      &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/emil_eifrem&quot;&gt;More About Emil »&lt;/a&gt; &lt;br /&gt;
+      &lt;h2&gt;About Craig Walls&lt;/h2&gt;
+      &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/craig_walls&quot;&gt;&lt;img src=&quot;http://www.springone2gx.com/s/images/bio/38_Walls_20110408_053039_medium_sq.jpg&quot; alt=&quot;Craig Walls&quot; /&gt;&lt;/a&gt;
+      &lt;p&gt;Craig Walls has been professionally developing software for almost   18 years (and longer than that for the pure geekiness of it). He is a   senior engineer with SpringSource as the Spring Social project lead and   is the author of Spring in Action and XDoclet in Action (both published   by Manning) and Modular Java (published by Pragmatic Bookshelf). He&#039;s a   zealous promoter of the Spring Framework, speaking frequently at local   user groups and conferences and writing about Spring and OSGi on his   blog. When he&#039;s not slinging code, Craig spends as much time as he can   with his wife, two daughters, 4 birds and 3 dogs.&lt;/p&gt;
+      &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/craig_walls&quot;&gt;More About Craig »&lt;/a&gt;
+&lt;h2&gt;&lt;br /&gt;
+      &lt;/h2&gt;
     &lt;/div&gt;
-    &lt;div&gt;
-      &lt;h2&gt;About Michael Hunger&lt;/h2&gt;
-      &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/michael_hunger&quot;&gt;&lt;img src=&quot;http://www.springone2gx.com/s/images/bio/46291_Hunger_20111028_083952_medium_sq.jpg&quot; alt=&quot;Michael Hunger&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/michael_hunger&quot;&gt;More &lt;/a&gt;  &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;</description>
- <comments>http://www.springsource.org/node/3783#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Tue, 15 Jan 2013 22:07:35 +0000</pubDate>
- <dc:creator>Pieter Humphrey</dc:creator>
- <guid isPermaLink="false">3783 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>This Week in Spring - January 8th, 2013</title>
- <link>http://www.springsource.org/node/3782</link>
- <description>Welcome back to another installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt;.   As usual, we&#039;ve got a lot to  look at, so, without further ado... 
-
- &lt;/P&gt; 
-
-&lt;OL&gt;  &lt;LI&gt;  GigaOM has a nice roundup of some of the exciting and important tools in the   big-data ecosystem right now.
-	   There are many different tools serving different segments of the use cases, 
-	
-	&lt;a href=&quot;http://gigaom.com/2012/12/18/a-programmers-guide-to-big-data-12-tools-to-know/&quot;&gt;and of course Spring Data is mentioned in there&lt;/a&gt;, too!
-	 
-	&lt;/LI&gt;
-	 &lt;LI&gt;
-		 The &lt;EM&gt; ODBMS Industry Watch&lt;/em&gt; blog 
-			and professor Roberto V. Zicari  
-			has a nice  interview 
-			
-			 &lt;a href =&quot;http://www.odbms.org/blog/2013/01/the-spring-data-project-interview-with-david-turanski&quot;&gt;with Spring ninja David Turanski on Spring Data&lt;/a&gt;. Definitely a good read!
- 
-		
-		 &lt;/LI&gt;	 
-
-	
-	 &lt;LI&gt; 
-	   Robin Varghese has put together a straight-forward blog on sending email with
-	&lt;a href=&quot;http://learningviacode.blogspot.com/2013/01/processing-template-text-in-spring.html&quot;&gt;dynamic 
-	templates driven  by Velocity&lt;/a&gt;. This seems to be a common use case, and it&#039;s always good to find
-	more up-to-date resources. Many people will no doubt have found Matt Raible&#039;s    
-	 post from 9 &lt;EM&gt;years&lt;/em&gt; ago on the same subject, 
-		&lt;a href=&quot;http://www.theserverside.com/news/1377021/Sending-Velocity-based-E-mail-with-Spring&quot;&gt;
-		which is also very illustrative but, alas, a little outdated&lt;/a&gt;. Nice to see this more updated approach to an old classic!
-	  &lt;/Li&gt;
-&lt;!-- 	&lt;LI&gt; sacsha  http://sacsha.blogspot.com/2013/01/spring-mvc.html  &lt;/LI&gt; --&gt;
- &lt;LI&gt; 
-	  
-	 Hey, this is &lt;EM&gt;interesting&lt;/EM&gt;! Did you guys know there was a Spring for Delphi (also, I guess, referred to as Spring4D)? 
-	Me either... @_@  With that in mind, I found this post 
-	 introducing  &lt;a href=&quot;http://www.nickhodges.com/post/Loop-Less-with-IEnumerable-and-Spring-for-Delphi.aspx&quot;&gt;some of the collection libraries that seem both very friendly and powerful in Spring for Delphi&lt;/a&gt;. 
- 
-	   Cool!
- &lt;/LI&gt;
- &lt;LI&gt; Eren Av?aro?ulları has a nice post showing how to use &lt;A href=&quot;http://www.onlinetechvision.com/?p=721&quot;&gt;dynamic languages (in particular, Groovy) with Spring&lt;/a&gt;.
-	
- &lt;/LI&gt;
-
- &lt;LI&gt; 
-	Dinesh Rajput has put together a blog introducing some of the &lt;a href=&quot;http://www.dineshonjava.com/2013/01/whats-new-in-spring-batch-2xx.html#.UOwdP4lesvo&quot;&gt;features unique to the Spring Batch 2.x generation&lt;/a&gt;, which  - while Spring Batch 2.x has been out for years - is &lt;em&gt;always&lt;/EM&gt; worth a look! 
-		 
-	 
-	
- &lt;/LI&gt;
-
- &lt;LI&gt; 
-	 The Java all and Sundry blog has a nice writeup on a piece of  &lt;a href=&quot;http://www.java-allandsundry.com/2013/01/spring-mvc-customizing.html&quot;&gt;Spring MVC&#039;s machinery, the &lt;CODE&gt;RequestMappingHandlerAdapter&lt;/code&gt;&lt;/a&gt;. 
-	 
-	
- &lt;/LI&gt;
- 
- &lt;LI&gt;Alex Soto&#039;s back, this time with a 
-	
-	&lt;a href=&quot;http://www.lordofthejars.com/2013/01/testing-spring-data-mongodb.html&quot;&gt;post on unit testing Spring Data  MongoDB with NoSQL Unit&lt;/a&gt;! Cool. 
-	 
-	
- &lt;/LI&gt;
- &lt;LI&gt; 
-	The &lt;EM&gt;Java Success&lt;/EM&gt; blog has a post introducing  some of the landscape for enterprise integration  
-	solutions in the JVM community, and &lt;a href=&quot;http://java-success.blogspot.com/2013/01/spring-integration-polling-for-file-and.html&quot;&gt;demonstrating some of the concepts of enterprise integration, specifically, with Spring Integration&lt;/a&gt;. 
-	
- &lt;/LI&gt;
-  
- &lt;LI&gt; The &lt;EM&gt;Develop and Conquer&lt;/EM&gt; blog has a nice example with some &lt;a href=&quot;http://raymondhlee.wordpress.com/2013/01/07/use-spring-value-annotation-for-injecting-date-properties/&quot;&gt; trickery to inject a &lt;code&gt;java.util.Date&lt;/CODe&gt; 
-	 value using the Spring Expression language and the &lt;CODE&gt;@Value&lt;/CODE&gt; annotation&lt;/a&gt;. Very cool! 
-	
- &lt;/LI&gt;
- &lt;LI&gt;Abhijit Ghosh put together a decent &lt;a href=&quot;http://www.srccodes.com/p/article/24/spring-3-mvc-framework-based-hello-world-web-application-example-using-maven-eclipse-ide-and-tomcat-server&quot;&gt;SpringMVC-based HelloWorld application &lt;/a&gt;using Tomcat, Maven, Eclipse (m2e).&lt;/LI&gt;
-  
-
-&lt;/OL&gt;
+&lt;/div&gt;
 </description>
- <comments>http://www.springsource.org/node/3782#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/14">This Week in Spring</category>
- <pubDate>Tue, 08 Jan 2013 18:47:59 +0000</pubDate>
- <dc:creator>Josh Long</dc:creator>
- <guid isPermaLink="false">3782 at http://www.springsource.org</guid>
+ <comments>http://www.springsource.org/node/3802#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 05 Feb 2013 22:22:29 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3802 at http://www.springsource.org</guid>
 </item>
 <item>
- <title>SpringSource Training Schedule: February 2013</title>
- <link>http://www.springsource.org/springsource-training-schedule-february-2013</link>
- <description>&lt;p&gt;If you are a Java developer looking to increase your Spring knowledge, vFabric Education by SpringSource is the place to start. We are providing several Spring trainings across the globe closely connected to your needs as a professional developer. This month you can also win another free SpringSource training seat. For more information about the &lt;a href=&quot;http://www.springsource.org/spring-prize-contest&quot;&gt;Spring Prize Contest click here&lt;/a&gt;. The complete Spring training schedule for February, 2013 can be found below:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 1: Core Spring&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;Americas&lt;/i&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156572&quot;&gt;Core Spring in Washington, DC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156571&quot;&gt;Core Spring in Denver, CO&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156659&quot;&gt;Core Spring in San Diego, CA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156658&quot;&gt;Core Spring in Pittsburgh, PA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156661&quot;&gt;Core Spring in Austin, TX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156660&quot;&gt;Core Spring in Los Angeles, CA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 26 - March 01: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156663&quot;&gt;Core Spring in Minneapolis, MN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 26 - March 01: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156662&quot;&gt;Core Spring in Portland, OR&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;&lt;i&gt;Asia Pacific&lt;/i&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 04 - 07: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155225&quot;&gt;Core Spring in Melbourne, Australia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 04 - 07: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=138309&quot;&gt;Core Spring in Bangalore, India&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=154196&quot;&gt;Core Spring in Singapore, Singapore&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 11 - 14: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155227&quot;&gt;Core Spring in Canberra, Australia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 11 - 14: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=138308&quot;&gt;Core Spring in New Delhi, India&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 18 - 21: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155228&quot;&gt;Core Spring in Brisbane, Australia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 25 - 28: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155226&quot;&gt;Core Spring in Sydney, Australia&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;&lt;i&gt;Europe, Middle East &amp; Africa&lt;/i&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157574&quot;&gt;Core Spring in Brussels, Belgium&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=140844&quot;&gt;Core Spring in Munich, Germany&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155981&quot;&gt;Core Spring in Lisbon, Portugal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=138360&quot;&gt;Core Spring in Madrid, Spain&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=140840&quot;&gt;Core Spring in Hamburg, Germany&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=150298&quot;&gt;Core Spring in Oslo, Norway&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=160532&quot;&gt;Core Spring in Moscow, Russia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=142233&quot;&gt;Core Spring in Cape Town, South Africa&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157434&quot;&gt;Core Spring in Lyon, France&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 25 - 28: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=161832&quot;&gt;Core Spring in London, United Kingdom&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;&lt;i&gt;Live Online&lt;/i&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155391&quot;&gt;Core Spring Online in Asia Pacific&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=161554&quot;&gt;Core Spring Online in Americas&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 2: Spring Web / Enterprise Integration with Spring / Hibernate with Spring&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;Americas&lt;/i&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156570&quot;&gt;Spring Web in Chicago, IL&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;&lt;i&gt;Europe, Middle East &amp; Africa&lt;/i&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=140867&quot;&gt;Enterprise Integration with Spring in Stuttgart, Germany&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157432&quot;&gt;Spring Web in Paris, France&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157580&quot;&gt;Spring Web in Dublin, Ireland&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157995&quot;&gt;Enterprise Integration with Spring in Brussels, Belgium&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 13 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=140881&quot;&gt;Hibernate with Spring in Stuttgart, Germany&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 18 - 21: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=161835&quot;&gt;Enterprise Integration with Spring in London, United Kingdom&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=158873&quot;&gt;Enterprise Integration with Spring in Prague, Czech Republic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157639&quot;&gt;Spring Web in Hamburg, Germany&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;&lt;i&gt;Live Online&lt;/i&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;February 05 - 07: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=162934&quot;&gt;Hibernate with Spring Online in Americas&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you cannot find a professional training near you, you can always request an &lt;a href=http://mylearn.vmware.com/mgrReg/message.cfm?ui=www&amp;subject=Onsite%20Training&gt;onsite SpringSource training&lt;/a&gt;&lt;/p&gt;</description>
- <comments>http://www.springsource.org/springsource-training-schedule-february-2013#comments</comments>
+ <title>Spring Web Flow 2.4 M1 and 2.3.2 Released</title>
+ <link>http://www.springsource.org/node/3801</link>
+ <description>&lt;p&gt;A minor maintenance release of Spring Web Flow 2.3.2 is now available via Maven and for download. See the &lt;a href=&quot;http://static.springsource.org/spring-webflow/docs/2.3.x/changelog.txt&quot;&gt;Changelog&lt;/a&gt; for the list of changes.&lt;/p&gt;
+&lt;p&gt;A first milestone of Spring Web Flow 2.4 is also available through the &lt;a href=&quot;https://github.com/SpringSource/spring-framework/wiki/SpringSource-repository-FAQ&quot;&gt;SpringSource milestone repository&lt;/a&gt;. See the &lt;a href=&quot;http://static.springsource.org/spring-webflow/docs/2.4.0.M1/changelog.txt&quot;&gt;Changelog&lt;/a&gt; for the full list of changes.&lt;/p&gt;
+&lt;p&gt;Spring Web Flow samples have been separated from the distribution and into a separate &lt;a href=&quot;https://github.com/SpringSource/spring-webflow-samples&quot;&gt;Github project&lt;/a&gt;. In addition the booking-mvc sample has been updated to use Thymeleaf thanks to Thymeleaf&#039;s project lead &lt;a href=&quot;https://twitter.com/danfenz&quot;&gt;Daniel Fernández&lt;/a&gt;.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3801#comments</comments>
  <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Tue, 08 Jan 2013 11:42:09 +0000</pubDate>
- <dc:creator>Mark Baars</dc:creator>
- <guid isPermaLink="false">3781 at http://www.springsource.org</guid>
+ <pubDate>Mon, 04 Feb 2013 13:20:05 +0000</pubDate>
+ <dc:creator>Rossen Stoyanchev</dc:creator>
+ <guid isPermaLink="false">3801 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Webinar: Testing Web Applications with Spring 3.2</title>
+ <link>http://www.springsource.org/node/3800</link>
+ <description>&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2013-02-21T17:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2013-02-21 10:00 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2013-02-21T18:00:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2013-02-21 11:00 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Pacific &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2013-02-21T17:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2013-02-21 10:00 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2013-02-21T18:00:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2013-02-21 11:00 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Pacific &lt;/div&gt;
+  &lt;/div&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.event-nodeapi, .submitted {display:none}
+&lt;/style&gt;
+&lt;p&gt;
+SpringSource has innovated extensively around testing in the past, something which continues today -- one of the most exciting new features in Spring Framework 3.2 is Spring MVC Test. What makes it so interesting is the comprehensive support for testing web applications and context hierarchies with the Spring TestContext Framework as well as comprehensive support for out-of-container Spring MVC tests.
+&lt;/p&gt;
+&lt;p&gt;
+Join  Sam Brannen and Rossen Stoyanchev   to see these new Spring Web testing features in action.
+&lt;/p&gt;
+&lt;p&gt;
+Rossen Stoyanchev is a Spring Framework developer focusing on Spring MVC as well as Spring Web Flow. His 17+ year background includes work on trading and risk management software, investment accounting, e-commerce web applications, directory services, among others. Prior to becoming a full-time Spring Framework developer, Rossen spent several years teaching and consulting clients building enterprise Java applications with Spring on a broad range of topics.
+&lt;/p&gt;
+&lt;p&gt;Sam Brannen is an active core committer for the Spring Framework, a Senior Software Consultant with over 15 years&#039; experience, and co-founder of Swiftmind, a software consulting agency in Zurich, Switzerland. At Swiftmind Sam helps international clients achieve best practices in agile software development, architecture, design, implementation, and testing of enterprise Java applications using the Spring Framework and a plethora of open source technologies. In his consulting role, Sam most enjoys leading work shops, code reviews, coaching, and training clients.&lt;/p&gt;
+&lt;p&gt;
+Europe: Thursday, February 21&lt;br&gt;
+3:00 pm Western Europe (London, GMT)&lt;br&gt;
+&lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;d=666995632&quot; target=&quot;_blank&quot;&gt;Register here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+  North America: Thursday, February 21&lt;br&gt;
+10:00 am Pacific Standard (San Francisco, GMT-08:00) &lt;br&gt;
+&lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;d=666941930&quot; target=&quot;_blank&quot;&gt;Register here&lt;/a&gt;
+&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3800#comments</comments>
+ <pubDate>Tue, 29 Jan 2013 23:55:15 +0000</pubDate>
+ <dc:creator>Chloe Jackson</dc:creator>
+ <guid isPermaLink="false">3800 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Webinar: When and Why Would I Use OAuth2?</title>
+ <link>http://www.springsource.org/node/3799</link>
+ <description>&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2013-02-14T17:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2013-02-14 10:00 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2013-02-14T18:00:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2013-02-14 11:00 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Pacific &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2013-02-14T17:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2013-02-14 10:00 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2013-02-14T18:00:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2013-02-14 11:00 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Pacific &lt;/div&gt;
+  &lt;/div&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.event-nodeapi, .submitted {display:none}
+&lt;/style&gt;
+&lt;p&gt;
+One of the questions we get asked the most by developers and architects is: when and why would I use OAuth2? Join David Syer, technical lead on Spring Batch, to explore the answer to this question -- the answer, as often with such questions, is “it depends”, but there are some features of OAuth2 that make it compelling in some situations, especially in systems composed of many lightweight web services, which is becoming a very common architectural pattern. 
+&lt;/p&gt;
+&lt;p&gt;
+This presentation will not go into a lot of detail about the OAuth2 protocol and related specifications, but will attempt to show some of the key features of a system secured with OAuth2 and the decision points when choosing to build such a system.
+&lt;/p&gt;
+&lt;p&gt;
+Europe: Thursday, February 14&lt;br&gt;
+3:00 pm Western Europe (London, GMT)&lt;br&gt;
+&lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;d=667098349&quot; target=&quot;_blank&quot;&gt;Register here&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+North America: Thursday, February 14&lt;br&gt;
+10:00 am Pacific Standard (San Francisco, GMT-08:00) &lt;br&gt;
+&lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;d=662403014&quot; target=&quot;_blank&quot;&gt;Register here&lt;/a&gt;
+&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3799#comments</comments>
+ <pubDate>Tue, 29 Jan 2013 23:50:29 +0000</pubDate>
+ <dc:creator>Chloe Jackson</dc:creator>
+ <guid isPermaLink="false">3799 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This Week in Spring - January 29th, 2013</title>
+ <link>http://www.springsource.org/node/3797</link>
+ <description>&lt;P&gt; 
+	Welcome back to another installation of &lt;EM&gt;This Week in Spring &lt;/EM&gt;! 
+	I&#039;ve been visiting developers and companies in India, China, and Japan. It&#039;s been an exciting time
+	to see what these emerging and powerful countries are doing with open source and with Spring, in particular! 
+	Of course, stay tuned to &lt;a href= &quot;http://blog.springsource.org/&quot;&gt;the SpringSource blog in the coming weeks&lt;/a&gt; 
+	some very cool examples and details! 
+	
+In the meantime, as usual, we&#039;ve got   quite a  bit of news to cover this week, including more news on the Spring 4 roadmap announcement from &lt;A href=&quot;http://blog.springsource.org/2013/01/16/next-stop-spring-framework-4-0&quot;&gt;last week&lt;/a&gt;. If you want to get the absolute latest, check out the &lt;a href=&quot;http://www.youtube.com/watch?v=fb5YG2W1srA&quot;&gt;Spring 3.2 GA webinar replay on YouTube&lt;/a&gt;, where Spring Framework 4.0 is covered a bit toward the end. Let&#039;s get to it! &lt;/p&gt;
+&lt;OL&gt;
+	&lt;LI&gt; 
+Charles Humble at InfoQ&#039;s &lt;a href= &quot;http://www.infoq.com/news/2013/01/spring4&quot;&gt;done a nice interview with Juergen Hoeller and write up of the Spring 4 announcement		&lt;/a&gt;.
+	&lt;/LI&gt;
+	&lt;LI&gt;The &lt;a href=&quot;http://www.springsource.org/node/3793&quot;&gt;Spring Integration 2.2.1 and 2.1.5&lt;/a&gt; maintenance   releases are now generally available.&lt;/LI&gt;
+
+			&lt;LI&gt;Spring HATEOAS 0.4 was &lt;a href=&quot;http://www.springsource.org/node/3796&quot;&gt;released&lt;/a&gt;, adding Jackson and HAL support.&lt;/LI&gt;
+  &lt;LI&gt;Two new SpringOne 2GX 2012 Replays have been released to our YouTube Channel: &lt;a href=&quot;http://www.springsource.org/node/3794&quot;&gt;Tooling for the Javascript Era, An Introduction to Broadleaf Commerce&lt;/a&gt;&lt;/LI&gt;
+			&lt;LI&gt;We&#039;ve launched a page to centralize &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/video_list&quot;&gt;all the SpringOne2GX 2012 recordings&lt;/a&gt;, check it out!&lt;/LI&gt;
+			&lt;LI&gt;Chris Beams, Gunnar Hillert, and Rossen Stoyanchev  were recorded in well-received presentation &lt;a href=&quot;http://www.infoq.com/presentations/Introduction-WebSocket&quot;&gt; Introducing WebSockets at SpringOne2GX 2012&lt;/a&gt;,    now  online on InfoQ!&lt;/LI&gt;
+			 &lt;LI&gt; Blogger  Ilias Tsagklis from the &lt;EM&gt; Java Code Geeks&lt;/em&gt; blog also has a nice post on the &lt;A href=&quot;http://www.javacodegeeks.com/2013/01/brace-yourselves-spring-framework-4-0-is-coming.html&quot;&gt;Spring 4.0 roadmap announcement&lt;/a&gt;.  &lt;/LI&gt;
+	&lt;LI&gt;  Chris Beams has announced that &lt;a href=&quot;http://www.springsource.org/node/3789&quot;&gt;Spring 3.1.4 has been released&lt;/a&gt;! &lt;/LI&gt;
+		&lt;LI&gt;  Marty Pitt has created a &lt;EM&gt;very&lt;/EM&gt; nice extension  - he&#039;s calling it &lt;EM&gt; BakeHouse&lt;/eM&gt;-  for &lt;a href=&quot;http://martypitt.github.com/bakehouse/&quot;&gt; Spring  web applications that 
+			  preprocesses web artifacts for consumption in  your web application at application startup&lt;/a&gt;. There are various kinds of pre processing possible:
+&lt;ul&gt;&lt;LI&gt;		 &lt;a href=&quot;http://lesscss.org/&quot;&gt;	 Less for your CSS&lt;/a&gt; &lt;/lI&gt;&lt;LI&gt;
+ &lt;a href=&quot;https://developers.google.com/closure/compiler/&quot;&gt;			Concatenate and minify your Javascript&lt;/a&gt;
+ &lt;/li&gt; &lt;li&gt;			Maybe even use some  &lt;a href=&quot;http://www.typescriptlang.org/&quot;&gt;Typescript&lt;/a&gt; or &lt;a href=&quot;http://coffeescript.org/&quot;&gt;CoffeeScript&lt;/a&gt;, which needs to be compiled &lt;/li&gt;&lt;/ul&gt;
+			 This is a very cool extension, Marty! It&#039;s like what I always wanted things like JAWR to be! The thing I most like about it, though? The fluid use of 
+			Spring Java &lt;CODE&gt;@Configuration&lt;/CODE&gt; classes! Really slick and productive!
+  &lt;/LI&gt;
+ 	&lt;LI&gt;  &lt;A href= &quot;http://www.publickey1.jp/blog/13/spring_framework_409java_8spring_source.html&quot;&gt;The Japanese portal &lt;EM&gt;Public Key&lt;/EM&gt;&lt;/a&gt; has  a nice writeup of
+	the announced roadmap for Spring 4.0 &lt;/lI&gt;
+	&lt;LI&gt;  The  &lt;EM&gt;Just Enough Architecture&lt;/EM&gt; blog has a nice post on &lt;a href=&quot;http://blogs.justenougharchitecture.com/?p=640&quot;&gt;using ActiveMQ, Spring Integration and MongoDB together - cool!&lt;/a&gt; I might&#039;ve used Spring Batch&#039;s flat file reading support instead of a custom one out of the box, though, overall, this is an awesome post!  &lt;/lI&gt;
+ 		&lt;LI&gt;  Blogger &lt;EM&gt;madhav&lt;/EM&gt; has a  nice   look at the &lt;a href=&quot;http://softtechgmr.blogspot.jp/2013/01/spring-data-jpa-inheritabce-table-for.html&quot;&gt;code to support table and class inheritance using Spring Data JPA&lt;/a&gt;. That said, it&#039;s &lt;EM&gt;really&lt;/EM&gt;  hard to read as the code is not indented at all&lt;/a&gt;!   &lt;/LI&gt;
+				&lt;LI&gt; Noushin Bashir has put together a nice post on how to &lt;a href =&quot;http://noushinb.blogspot.jp/2013/01/spring-activemq-ssl-enabled.html&quot;&gt;configure ActiveMQ with SSL  and then connect to it from Spring&lt;/a&gt;.   &lt;/LI&gt;
+
+ 
+
+		&lt;LI&gt;  Allard Buijze over at Trifork has announced &lt;a href= &quot;http://blog.trifork.nl/2013/01/22/axon-framework-2-0-released/&quot;&gt; version 2.0 of the Axon framework&lt;/a&gt;, which builds on top of many different Spring  projects
+			like Spring core, Spring AMQP, Spring Integration and Spring Data MongoDB to  bring 
+			 the CQRS  pattern to developers  in Java.
+  &lt;/LI&gt;  
+			&lt;LI&gt; Blogger &lt;EM&gt;lvwenwen&lt;/EM&gt; has put together a nice, Chinese-language    post &lt;a href=&quot;http://lvwenwen.iteye.com/blog/1774854&quot;&gt;introducing Spring and MongoDB integration&lt;/a&gt;. &lt;/LI&gt;
+&lt;!-- 		&lt;LI&gt; http://agile-jason.iteye.com/blog/1776711 &lt;/LI&gt;--&gt;
+		&lt;LI&gt; Blogger &lt;EM&gt;java2000_wl&lt;/EM&gt; has put together a nice, Chinese-language  (though, to be fair, the post is almost entirely code, in this case, and that language - if nothing else - is universal) post 			
+			&lt;a href=&quot;http://blog.csdn.net/java2000_wl/article/details/8543203&quot;&gt;introducing  how to use Spring Data Redis&lt;/a&gt; &lt;/lI&gt;								
+			&lt;LI&gt; Blogger &lt;EM&gt;Ctillin&lt;/EM&gt; has put together a &lt;a href= &quot;http://blog.csdn.net/ctllin/article/details/8536479&quot;&gt;Chinese-language post introducing how to use &lt;CODE&gt;@Autowired&lt;/CODE&gt;&lt;/a&gt; in your Spring applications.  &lt;/LI&gt;
+&lt;/OL&gt;</description>
+ <comments>http://www.springsource.org/node/3797#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/14">This Week in Spring</category>
+ <pubDate>Tue, 29 Jan 2013 21:49:33 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3797 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Hateoas 0.4 released</title>
+ <link>http://www.springsource.org/node/3796</link>
+ <description>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+&lt;title&gt;Untitled Document&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;p&gt;SpringSource would like to announce the release of  Spring Hateoas 0.4! &lt;/p&gt;
+&lt;p&gt; The Spring HATEOAS project provides some APIs to ease creating REST representations that follow the HATEOAS principle when working with Spring and especially Spring MVC. &lt;strong&gt;HATEOAS&lt;/strong&gt;, an abbreviation for &lt;strong&gt;Hypermedia as the Engine of Application State&lt;/strong&gt;, is a constraint of the REST application architecture that distinguishes it from most other network application architectures. The core problem it tries to address is link creation and representation assembly.&lt;/p&gt;
+&lt;p&gt;In this release, the most important new  features are:&lt;/p&gt;
+&lt;p&gt;- extended LinkBuilder API to point to Controller  *methods* as well&lt;br /&gt;
+  - Jackson 2 support&lt;br /&gt;
+  - HAL support&lt;br /&gt;
+  - EntityLinks API to create links pointing to controllers  managing a particular entity type&lt;br /&gt;
+- introduced LinkDiscoverer API to find links in  representations by rel (incl. JSONPath based implementation)&lt;/p&gt;
+&lt;p&gt;You can read about all of the new features and bug fixes in the  change log. Enjoy!&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/downloads/nightly/milestone-download.php?project=BATCH&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;https://github.com/SpringSource/spring-hateoas#spring-hateoas&quot;&gt;Documentation&lt;/a&gt; | Javadoc API (coming soon) | &lt;a target=&quot;_blank&quot; href=&quot;https://raw.github.com/SpringSource/spring-hateoas/0.4.0.RELEASE/src/main/resources/changelog.txt&quot;&gt;Change Log&lt;/a&gt; | &lt;a href=&quot;https://github.com/SpringSource/spring-hateoas/issues&quot;&gt;Issues/Bugs&lt;/a&gt; |&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+ <comments>http://www.springsource.org/node/3796#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 29 Jan 2013 21:32:12 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3796 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Tool Suite and Groovy/Grails Tool Suite 3.2.0.M2 released</title>
+ <link>http://www.springsource.org/node/3795</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the second milestone release 3.2.0.M2 of the Spring Tool Suite (STS) and the Groovy/Grails Tool Suite (GGTS).&lt;/p&gt;
+&lt;p&gt;Highlights from this milestone build include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a lot of overall performance improvements, especially for the Spring tooling&lt;/li&gt;
+&lt;li&gt;improvements to Live Beans Graph feature&lt;/li&gt;
+&lt;li&gt;improved Spring Data code completion and validation&lt;/li&gt;
+&lt;li&gt;Grails 2.2 included in the GGTS distribution and available on the dashboard&lt;/li&gt;
+&lt;li&gt;Groovy 2.0.6 compiler now included in the GGTS distribution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both tool suites ship on top of the latest Eclipse Juno SR2 maintenance builds (not yet the final Eclipse Juno SR2 release). We still recommend to use the Eclipse-3.8-based versions of STS and GGTS for optimal performance.&lt;/p&gt;
+&lt;p&gt;The 3.2.0 release is scheduled for early March 2013 - shortly after the Eclipse Juno SR2 release.&lt;/p&gt;
+&lt;p&gt;To download the distributions, please go visit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Tool Suite: &lt;a href=&quot;http://www.springsource.org/sts&quot;&gt;http://www.springsource.org/sts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Groovy/Grails Tool Suite: &lt;a href=&quot;http://grails.org/products/ggts&quot;&gt;http://grails.org/products/ggts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Detailed new and noteworthy notes can be found here: &lt;a href=&quot;http://static.springsource.org/sts/nan/v320/NewAndNoteworthy-M2.html&quot;&gt;STS/GGTS 3.2.0.M2 New &amp;amp; Noteworthy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3795#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 29 Jan 2013 12:48:05 +0000</pubDate>
+ <dc:creator>Martin Lippert</dc:creator>
+ <guid isPermaLink="false">3795 at http://www.springsource.org</guid>
 </item>
 </channel>
 </rss>

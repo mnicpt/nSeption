@@ -13,7 +13,7 @@
 	<atom:link href="http://blog.springsource.org/feed/" rel="self" type="application/rss+xml" />
 	<link>http://blog.springsource.org</link>
 	<description>The voice of SpringSource</description>
-	<lastBuildDate>Fri, 25 Jan 2013 12:00:34 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 31 Jan 2013 04:18:51 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -60,7 +60,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=12463</guid>
 		<description><![CDATA[Dear Spring community, I&#039;m happy to announce that the next iteration of the core framework will be Spring Framework 4.0! The current 3.2 generation is a natural conclusion of the 3.x line, with Java-based configuration and REST having been recent focus areas next to Java SE 7 and Servlet 3.0 support. For Spring Framework 4.0,  <a href="http://blog.springsource.org/2013/01/16/next-stop-spring-framework-4-0/"><em>Read more...</em></a>]]></description>
 		<wfw:commentRss>http://blog.springsource.org/2013/01/16/next-stop-spring-framework-4-0/feed/</wfw:commentRss>
-		<slash:comments>9</slash:comments>
+		<slash:comments>13</slash:comments>
 		</item>
 		<item>
 		<title>Scripted Editor 0.3 release available</title>
@@ -102,7 +102,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=12321</guid>
 		<description><![CDATA[Last week I announced the release of Spring Security 3.2 M1 that contains improved Servlet 3 support. In this post, I will introduce some of the more exciting features found in the 3.2 M1 release. Specifically, we will take a look at the following new Spring Security features: Concurrency Support Servlet 3 API Integration Servlet  <a href="http://blog.springsource.org/2012/12/17/spring-security-3-2-m1-highlights-servlet-3-api-support/"><em>Read more...</em></a>]]></description>
 		<wfw:commentRss>http://blog.springsource.org/2012/12/17/spring-security-3-2-m1-highlights-servlet-3-api-support/feed/</wfw:commentRss>
-		<slash:comments>8</slash:comments>
+		<slash:comments>9</slash:comments>
 		</item>
 		<item>
 		<title>Spring Framework 3.2 goes GA</title>
@@ -115,7 +115,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=12297</guid>
 		<description><![CDATA[Dear Spring community, Exactly one year after the Spring Framework 3.1 release, I&#039;m pleased to announce that Spring Framework 3.2 is generally available now! We recommend an upgrade from all previous Spring releases, in particular from Spring Framework 3.1.x which this is a direct successor for. As previously discussed, key features in Spring Framework 3.2  <a href="http://blog.springsource.org/2012/12/13/spring-framework-3-2-goes-ga/"><em>Read more...</em></a>]]></description>
 		<wfw:commentRss>http://blog.springsource.org/2012/12/13/spring-framework-3-2-goes-ga/feed/</wfw:commentRss>
-		<slash:comments>14</slash:comments>
+		<slash:comments>15</slash:comments>
 		</item>
 		<item>
 		<title>Introducing Spring Scala</title>
@@ -129,7 +129,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=12215</guid>
 		<description><![CDATA[Last October, at SpringOne2GX, I introduced the Spring Scala project to the world. Since then, I&#039;ve also presented this project at Devoxx. In this blog post, I would like to give further details about this project and how you can use it in your Scala projects. Why Spring Scala? The goal of the Spring Scala  <a href="http://blog.springsource.org/2012/12/10/introducing-spring-scala/"><em>Read more...</em></a>]]></description>
 		<wfw:commentRss>http://blog.springsource.org/2012/12/10/introducing-spring-scala/feed/</wfw:commentRss>
-		<slash:comments>18</slash:comments>
+		<slash:comments>24</slash:comments>
 		</item>
 		<item>
 		<title>IOC + Javascript at SpringOne 2GX</title>
@@ -159,7 +159,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=12134</guid>
 		<description><![CDATA[It&#039;s my pleasure to announce that we&#039;ve released the first milestone of Spring Migration Analyzer (SMA), a command-line utility that analyzes enterprise Java applications and produces a report describing the application and how it can be migrated to Spring. Why migrate an application to Spring? We see two main reasons when people choose to use  <a href="http://blog.springsource.org/2012/11/27/introducing-spring-migration-analyzer/"><em>Read more...</em></a>]]></description>
 		<wfw:commentRss>http://blog.springsource.org/2012/11/27/introducing-spring-migration-analyzer/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
+		<slash:comments>4</slash:comments>
 		</item>
 	</channel>
 </rss>

@@ -2,6 +2,6 @@
 <project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="WebTester">
         <wb-resource deploy-path="/" source-path="/WebContent"/>
-        <property name="context-root" value="WebTester"/>
+        <property name="context-root" value="nTest"/>
     </wb-module>
 </project-modules>
