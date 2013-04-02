@@ -1,6 +1,0 @@
-INDEX VERSION 1.122+/Users/smask/Documents/workspace/nseption/ntest/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-2281367111.index
-2247302487.index
-687080392.index
-2659027829.index
-1707127179.index
