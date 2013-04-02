@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 .metadata/*
 .settings/*
 Servers/*
 nSeption/.settings
+=======
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+>>>>>>> refs/remotes/origin/master
