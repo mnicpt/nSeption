@@ -1,0 +1,93 @@
+.container-fluid {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+header {
+  background: #1e5799;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #1e5799), color-stop(50%, #2989d8), color-stop(51%, #207cca), color-stop(100%, #7db9e8));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* IE10+ */
+  background: linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #555;
+  box-shadow: 0 3px 10px #aaa;
+  text-align: center;
+  padding: 4%;
+  height: 90px; }
+  
+  header h1 {
+    font-size: 120px;
+    font-weight: bold;
+    font-effect: emboss;
+    color: white;
+    text-shadow: 0 -1px 1px #333333; }
+
+section article:not(article:first-child) {
+  display: none; }
+
+/* bootstrap overrides */
+.navbar {
+  margin-bottom: 0;
+  background-color: #fafafa;
+  background-image: -webkit-linear-gradient(top, #f2f2f2, white); }
+  .navbar .nav li .dropdown-menu::before, .navbar .nav li .dropdown-menu::after {
+    display: none; }
+
+.navbar-inner {
+  background-image: -webkit-linear-gradient(top, #f2f2f2, white);
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: 0; }
+
+.bs-docs-sidenav {
+  margin-top: 0;
+  width: 100%; }
+
+body {
+  padding-top: 0; }
+
+@media (max-width: 767px) {
+  body {
+    padding: 0; }
+
+  .container-fluid {
+    width: 100%; }
+
+  header {
+    height: 70px; }
+    header h1 {
+      font-size: 60px; }
+
+  .navbar .nav > li > a {
+    padding-left: 0;
+    padding-right: 0;}
+
+  .navbar .divider-vertical {
+    margin: 0 6px; }
+
+  .navbar-inner {
+    margin-left: 3px; }
+
+  .bs-docs-sidenav > li:first-child > a,
+  .bs-docs-sidenav > li:last-child > a {
+    border-radius: 0; }
+
+  .questions {
+    width: 90%;
+    margin: 0 auto; } }
