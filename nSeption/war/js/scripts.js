@@ -5,6 +5,9 @@ var kata = {
 		questions : [
 				{
 					id : 1,
+					code : "",
+					input : "abcd",
+					output : "true",
 					question : "<strong>Question 1.1 :</strong><br />Implement an algorithm to determine if a string has all unique characters.  What if you can't use additional data structures?",
 					answer : [
 							"public boolean uniqueChars(String str) {",
@@ -15,6 +18,9 @@ var kata = {
 							"   return true;", "}" ]
 				}, {
 					id : 2,
+					code : "",
+					input : "",
+					output : "",
 					question : "<strong>Question 1.2 :</strong><br />Implement a function String reverse(String str). You cannot use the Collections library.  See if you can do it in place.",
 					answer	: [
 					      	   "public String reverse(String str) {",
@@ -31,6 +37,70 @@ var kata = {
 							   "    return String.valueOf(characters);",
 							   "}"
 					      	   ]
+				}, {
+					id : 3,
+					code : "",
+					input : "",
+					output : "",
+					question : "<strong>Question 1.3 :</strong><br />Given two strings, write a method to decide if one is a permutation of the other.",
+					answer : [
+							"public static boolean permutation(String str1, String str2) {",
+							"    //check length",
+							"    if(str1.length() != str2.length()) {",
+							"        return false;",
+							"    } else {",
+							"        //check same characters",
+							"        char[] str1Chars = str1.toCharArray();",
+							"        char[] str2Chars = str2.toCharArray();",
+							"        for(int i = 0; i < str1.length(); i++) {",
+							"            int index = str2.indexOf(str1Chars[i]);",
+							"            if(str2.indexOf(index == -1) {",
+							"                return false;",
+							"            }",
+							"            str2Chars[index] = ' ';",
+							"            string2 = String.valueOf(str2Chars);",
+							"        }",
+							"    }",
+							"    return true;",
+							"}"
+							]
+				}, {
+					id : 4,
+					code : "",
+					input : "",
+					output : "",
+					question : "<strong>Question 1.4 :</strong><br />Write a method to encode all spaces in a string with %20.  Perform in place.",
+					answer : [
+					          "Answer to come..." 
+					          ]
+				}, {
+					id : 5,
+					code : "",
+					input : "",
+					output : "",
+					question : "<strong>Question 1.5 :</strong><br />Implement a method to compress a string using the counts of repeated characeters.  For example, aabcccd, would become a2bc3d.",
+					answer : [
+					          "Answer to come..." 
+					          ]
+				}, {
+					id : 6,
+					code : "",
+					input : "",
+					output : "",
+					question : "<strong>Question 1.6 :</strong><br />Given an image by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees.  Do this in place.",
+					answer : [
+					          "Answer to come..." 
+					          ]
+				}, {
+					id : 7,
+					code : "",
+					input : "",
+					output : "",
+					question : "<strong>Question 1.7 :</strong><br />Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.",
+					answer : [
+					          "Answer to come..." 
+					          ]
+				
 				} ]
 	} ],
 
@@ -43,7 +113,9 @@ var kata = {
 					question = section.questions[question];
 					if (questionId == question.id) {
 						$('.questions').show();
-						$('.question').html(question.question);
+						$('.codeIt textarea').val(question.code);
+						$('.codeIt').show();
+						$('.question').html(question.question).data('number', questionId);
 						$solution = $('.solution pre');
 						$solution.html("");
 						for (answer in question.answer) {
@@ -93,7 +165,13 @@ var kata = {
 	}
 };
 
+$(document).on('keyup', '.codeIt textarea', function() {
+	var questionId = $('.question').data('number');
+	kata.sections[0].questions[parseInt(questionId, 10) - 1].code = $(this).val();//TODO change section id to be dynamic
+});
+
 $(document).on('click', '.bs-docs-sidenav a', function() {
+	$('#correctAnswer').text("");
 	$('.bs-docs-sidenav li').each(function() {
 		$(this).removeClass('active');
 	});
@@ -110,9 +188,24 @@ $(document).on('click', '.bs-docs-sidenav a', function() {
 	kata.prepQA(sectionName, questionId);
 });
 
-$('.dropdown-menu a').on('mouseup', function() {
-	var section = $(this).data('target');
+$('.dropdown-menu a').on('click', function(e) {
+	e.preventDefault();
+	var section = $(this).attr('href');
 	kata.load(section);
+});
+
+$('#solveBtn').on('click', function() {
+	var questionId = $('.question').data('number');
+	var solution = "(function(){" + $('textfield .codeIt').val() + "})();";
+	var $correctAnswer = $('#correctAnswer');
+	
+	if(solution === kata.sections[0].questions[parseInt(questionId, 10) - 1].output) { //TODO change section id to be dynamic
+		$correctAnswer.addClass("correct");
+		$correctAnswer.text("Correct!");
+	} else {
+		$correctAnswer.addClass("incorrect");
+		$correctAnswer.text("Incorrect!");
+	}
 });
 
 $('.btn-success').on('click', function() {
@@ -120,4 +213,11 @@ $('.btn-success').on('click', function() {
 	$('.btn-success').closest('.row-fluid').siblings('.solution').fadeToggle();
 	var btnTitle = $btn.val() == "Show Answer" ? "Hide Answer" : "Show Answer";
 	$btn.val(btnTitle);
+	
+	var $codeItSection = $('.codeIt');
+	if("Hide Answer" == btnTitle) {
+		$codeItSection.hide();
+	} else {
+		$codeItSection.show();
+	}
 });
