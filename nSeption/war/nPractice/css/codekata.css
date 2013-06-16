@@ -1,0 +1,28 @@
+.codeIt {
+	padding: 5% 0;
+}
+
+.codeIt textarea {
+	width: 100%;
+}
+
+.correct {
+	position:relative;
+	float:right;
+	color: green;
+}
+
+.incorrect {
+	position:relative;
+	float:right;
+	color: red;
+}
+.bs-docs-sidenav.affix-bottom {
+	bottom:auto;
+}
+@media ( max-width : 767px) {
+	.questions {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
