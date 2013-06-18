@@ -52,6 +52,7 @@ define(["codekata", "grid", "prettify"], function(kata, grid) {
 		function() {
 	
 			var 
+			    i,
 				link, 
 				markup = "", 
 				state = location.hash === "" ? "index" : location.hash.substring(1), 
@@ -72,11 +73,11 @@ define(["codekata", "grid", "prettify"], function(kata, grid) {
 				$('header h2').text(page.subtitle);
 
 				if(page.links.length > 0) {
-					for (link in page.links) {
-						markup += "<li>" + "<a href=\"#" + page.links[link].replace(/ /g, "")
+					for (i = 0; i < page.links.length; i++) {
+						markup += "<li>" + "<a href=\"#" + page.links[i].replace(/ /g, "")
 								+ "\">"
 								+ "<i class=\"icon-chevron-right\"></i>"
-								+ page.links[link] + "</a>" + "</li>";
+								+ page.links[i] + "</a>" + "</li>";
 					}
 					$navList.html(markup);
 				} else {

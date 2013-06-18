@@ -14,4 +14,4 @@ requirejs.config({
 });
 
 //Load the main app module to start the app
-requirejs(["bootstrap.min", "ie", "app", "codekata", "grid"]);
+requirejs(["bootstrap.min", "app", "codekata", "grid"]);
