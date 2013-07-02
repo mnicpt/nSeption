@@ -136,6 +136,7 @@ define(function() {
 		if ($answerButton.val() == "Hide Answer") {
 			$answerButton.click();
 		}
+		$('#correctAnswer').hide();
 		kata.prepQA(sectionName, questionId);
 	});
 
@@ -151,6 +152,7 @@ define(function() {
 					+ kata.sections[section][parseInt(
 							questionId, 10)].code + "})();");
 			$correctAnswer.removeClass();
+			$correctAnswer.show();
 			if (solution === kata.sections[section][parseInt(questionId, 10)].output) {
 				$correctAnswer.addClass("correct");
 				$correctAnswer.text("Correct!");

@@ -48,11 +48,9 @@ header h2 {
 	font-effect: emboss;
 	text-shadow: 0 -1px 1px #fff;
 }
-
-section article:not (article:first-child ) {
-	display: none;
+#main {
+    margin-bottom:20px;
 }
-
 .symbol {
 	position:absolute;
 	float:left;
@@ -64,7 +62,7 @@ section article:not (article:first-child ) {
 	box-shadow:inset 2px 2px 10px #333;
 }
 .codekata.symbol {
-	background-color: red;
+	background: no-repeat url(../img/codekata.png);
 }
 .history.symbol {
 	background-color: orange;
@@ -92,8 +90,7 @@ body > .navbar .brand {
 	margin:0;
 }
 @media ( max-width : 979px) {
-	.navbar-fixed-top {margin-bottom:0;}
-	#main{margin-top:110px;}
+	.navbar-fixed-top{position:fixed;padding:0 20px;}
 }
 @media ( max-width : 767px) {
 	header {
@@ -116,5 +113,5 @@ body > .navbar .brand {
 	}
 }
 @media ( max-width : 480px) {
-	#main{margin-top:86px;}
+	.symbol, .bs-docs-sidebar, header{display:none !important;}
 }
