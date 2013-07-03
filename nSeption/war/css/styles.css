@@ -1,5 +1,3 @@
-body {font-effect:emboss;}
-
 a:hover {cursor:pointer;}
 
 header {
@@ -48,6 +46,10 @@ header h2 {
 	font-effect: emboss;
 	text-shadow: 0 -1px 1px #fff;
 }
+.title{
+    color:#1e5799;
+    text-align:center;
+}
 #main {
     margin-bottom:20px;
 }
@@ -81,7 +83,7 @@ header h2 {
 .navbar-inverse .navbar-inner {
 	background-image:none;
 	background-color:#000;
-	opacity:.8;
+	opacity:.85;
 }
 body > .navbar .brand {
 	color:#444;
@@ -90,14 +92,14 @@ body > .navbar .brand {
 	margin:0;
 }
 @media ( max-width : 979px) {
-	.navbar-fixed-top{position:fixed;padding:0 20px;}
+	header{margin-top:46px;}
+	.navbar-fixed-top{position:fixed;}
+	.navbar-inverse .navbar-inner {padding:3px;}
 }
 @media ( max-width : 767px) {
 	header {
-		position:absolute;
-		width:100%;
 		height: 70px;
-		left:0;
+		margin:46px -20px 20px;
 	}
 	header:after {
 		display:table;
@@ -111,7 +113,10 @@ body > .navbar .brand {
 	header h2 {
 		display:none;
 	}
+	.navbar-fixed-top{position:fixed;padding:0 20px;}
+	.symbol{display:none;}
 }
 @media ( max-width : 480px) {
-	.symbol, .bs-docs-sidebar, header{display:none !important;}
+	.symbol{display:none !important;}
+	.bs-docs-sidebar{display:none;}
 }
