@@ -1,10 +1,10 @@
-.kata section .btn{margin-top:18px;}
+.kata section .btn{margin-top:18px;float:right;}
 .codeIt {
 	padding: 5% 0;
 }
 
 .codeIt textarea {
-	width: 100%;
+	width: 97%;
 }
 
 .correct {
@@ -23,9 +23,5 @@
 }
 @media ( max-width : 767px) {
 	section{padding-top:20px;padding-bottom:30px;}
-	.kata section .btn{margin-top:0;}
-	.questions {
-		width: 90%;
-		margin: 0 auto;
-	}
+	.kata section .btn{float:none;}
 }

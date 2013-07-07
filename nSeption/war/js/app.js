@@ -70,7 +70,7 @@ define(["codekata", "grid", "prettify"], function(kata, grid) {
 			// create side bar
 			if (page !== undefined) {
 				$('header h1').text(page.title);
-				$('header h2').text(page.subtitle);
+				$('header h3').text(page.subtitle);
 
 				if(page.links.length > 0) {
 					for (i = 0; i < page.links.length; i++) {
