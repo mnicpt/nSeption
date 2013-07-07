@@ -11,9 +11,10 @@
 		event from this state so that we can then manually call <code>history.back()</code> and <code>history.forward()</code>
 		when these states are fired.
 	</p>
-	<pre class="prettyprint linenums lang-html">
-	&lt;script src="history.js" type="text/javascript"&gt;&lt;/script&gt;
-	&lt;script src="navigation.js" type="text/javascript"&gt;&lt;/script&gt;</pre>
+<pre class="prettyprint linenums lang-html">
+&lt;script src="history.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="navigation.js" type="text/javascript"&gt;&lt;/script&gt;
+</pre>
 	<h3>Cross-browser Compatible</h3>
 	<p>
 		Modern browsers have a History API built into them.  We use this when the browser supports it, otherwise, we fall
@@ -111,17 +112,19 @@
 	</p>
 	<h3>Back Event</h3>
 	<p>
-	<pre class="prettyprint linenums lang-js">
-	$(window).on('back', function() {
-		// handle back event
-	});</pre>
+<pre class="prettyprint linenums lang-js">
+$(window).on('back', function() {
+	// handle back event
+});
+</pre>
 	</p>
 	<h3>Forward Event</h3>
 	<p>
-	<pre class="prettyprint linenums lang-js">
-	$(window).on('forward', function() {
-		// handle forward event
-	});</pre>
+<pre class="prettyprint linenums lang-js">
+$(window).on('forward', function() {
+	// handle forward event
+});
+</pre>
 	</p>
 </section>
 <section id="Usage">
@@ -143,15 +146,15 @@
 			<a href="javascript:;" onclick="History.back();"> &lt;&lt; Back</a>
 			<a href="javascript:;" onclick="History.forward();" style="float:right;">Forward &gt;&gt;</a>
 		</div>
-		<pre class="prettyprint linenums lang-js">
-		&lt;script&gt;
-			History.pushState({state:'back', null});
-			History.pushState({state:'page', null});
-			History.pushState({state:'forward', null});
-		&lt;/script&gt;
-		&lt;a href="javascript:;" onclick="History.back();"&gt;Back&lt;/a&gt;
-		&lt;a href="javascript:;" onclick="History.forward();"&gt;Forward&lt;/a&gt;
-		</pre>
+<pre class="prettyprint linenums lang-js">
+&lt;script&gt;
+	History.pushState({state:'back', null});
+	History.pushState({state:'page', null});
+	History.pushState({state:'forward', null});
+&lt;/script&gt;
+&lt;a href="javascript:;" onclick="History.back();"&gt;Back&lt;/a&gt;
+&lt;a href="javascript:;" onclick="History.forward();"&gt;Forward&lt;/a&gt;
+</pre>
 	</div>
 </section>
 </div>

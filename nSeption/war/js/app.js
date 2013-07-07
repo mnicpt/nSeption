@@ -51,13 +51,11 @@ define(["codekata", "grid", "prettify"], function(kata, grid) {
 	$(window).on(nDesign.navigationEvent,
 		function() {
 	
-			var 
+			var
 			    i,
-				link, 
 				markup = "", 
 				state = location.hash === "" ? "index" : location.hash.substring(1), 
 				page = nDesign.pages[state],
-				script = "",
 				$navList = $('.nav.nav-list'),
 				$window = $(window);
 			
@@ -74,10 +72,10 @@ define(["codekata", "grid", "prettify"], function(kata, grid) {
 
 				if(page.links.length > 0) {
 					for (i = 0; i < page.links.length; i++) {
-						markup += "<li>" + "<a href=\"#" + page.links[i].replace(/ /g, "")
-								+ "\">"
-								+ "<i class=\"icon-chevron-right\"></i>"
-								+ page.links[i] + "</a>" + "</li>";
+						markup += "<li>" + "<a href=\"#" + page.links[i].replace(/ /g, "") +
+								  "\">" +
+								  "<i class=\"icon-chevron-right\"></i>" +
+								  page.links[i] + "</a>" + "</li>";
 					}
 					$navList.html(markup);
 				} else {
@@ -89,7 +87,7 @@ define(["codekata", "grid", "prettify"], function(kata, grid) {
 					$('.main').load("index.html .main");
 				} 
 				else {
-					$('.main').load(page.url + " .content", function(response, status, xhr) {
+					$('.main').load(page.url + " .content", function() {
 						if("./nPractice/codekata.html" === page.url && "codekata" !== state) {
 							kata.load(state);
 						} else if("grid" === state) {

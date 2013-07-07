@@ -7,9 +7,9 @@ requirejs.config({
     //never includes a ".js" extension since
     //the paths config could be for a directory.
     paths: {
-    	app			: '../app',
-    	codekata	: '../../nPractice/js/codekata',
-    	grid		: '../../nDesign/grid/js/grid'
+    	app			: '../app.min',
+    	codekata	: '../../nPractice/js/codekata.min',
+    	grid		: '../../nDesign/grid/js/grid.min'
     }
 });
 

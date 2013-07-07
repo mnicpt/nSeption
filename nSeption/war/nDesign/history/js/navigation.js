@@ -8,9 +8,9 @@
  * dependency	: history.js
  * 
  */
-(function($){
+(function($, History){
 
-	var 
+	var
 		onload = false,
 		closing = false,
 		preventNavigationEvents = false,
@@ -33,7 +33,7 @@
 	/* Handle navigating using a link. We don't want to fire Back and Forward events. */
 	$(document).on('click', 'a', function(e) {
 		
-		$this = $(e.target);
+		var $this = $(e.target);
 		var link = $this.attr('href');
 		if(link !== undefined && link.indexOf('#') < 0 && link.indexOf('javascript') === -1) {
 			preventNavigationEvents = true;
@@ -55,7 +55,6 @@
 	});
 
 	$(window).on('pagehide', function() {
-		var session = sessionStorage['demo'];
 		if(closing) {
 			// either refreshing, closing or holding forward/backward button
 		}
@@ -128,5 +127,5 @@
 				}
 			});
 
-})(jQuery);
+})(jQuery, History);
 
