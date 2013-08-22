@@ -19,7 +19,7 @@ define(["codekata", "grid", "prettify"], function(kata, grid) {
 				url : "./nPractice/codekata.html",
 				title : "nPractice",
 				subtitle : "Arrays and Strings",
-				links : ["Unique Characters", "Reverse String", "String Permutation"]
+				links : ["Unique Characters", "Reverse String", "String Permutation", "Encode Spaces", "Compress String"]
 			},
 			
 			history : {
