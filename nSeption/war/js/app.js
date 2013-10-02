@@ -19,7 +19,31 @@ define(["codekata", "grid", "prettify"], function(kata, grid) {
 				url : "./nPractice/codekata.html",
 				title : "nPractice",
 				subtitle : "Arrays and Strings",
-				links : ["Unique Characters", "Reverse String", "String Permutation", "Encode Spaces", "Compress String"]
+				links : ["Unique Characters", "Reverse String", 
+				         "String Permutation", "Encode Spaces", 
+				         "Compress String", "Rotate Image", 
+				         "Clear Axes", "Substring"]
+			},
+			
+			lists : {
+			    url : "./nPractice/codekata.html",
+			    title : "nPractice",
+			    subtitle : "Linked Lists",
+			    links : ["Duplicates"]
+			},
+			
+			stacks : {
+			    url : "./nPractice/codekata.html",
+			    title : "nPractice",
+			    subtitle : "Stacks and Queues",
+			    links : ["Stack as Array"]
+			},
+			
+			trees : {
+			    url : "./nPractice/codekata.html",
+			    title : "nPractice",
+			    subtitle : "Trees and Graphs",
+			    links : ["Balanced Tree"]
 			},
 			
 			history : {
