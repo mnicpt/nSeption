@@ -1,18 +1,25 @@
 {
-  "author": "Steve Mask <mnicpt@gmail.com> (nseption.com)",
-  "name": “nseption”,
-  "description": “nSeption”,
-  "version": "0.0.1",
-  "repository": {
-    "url": "https://github.com/mnicpt/nSeption.git”
+  "name": "nseption",
+  "version": "0.1.2",
+  "description": "nSeption",
+  "main": "web.js",
+  "scripts": {
+    "start": "node web.js"
   },
-  "main": "main.js",
   "dependencies": {
-    "express": "^3.4.8"
+    "express": "~4.9.x"
   },
-  "devDependencies": {},
-  "optionalDependencies": {},
   "engines": {
     "node": "0.10.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnicpt/nSeption.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
