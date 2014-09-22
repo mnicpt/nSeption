@@ -1,0 +1,160 @@
+<div class="content history">
+<link href="nDesign/history/css/history.css" type="text/css" rel="stylesheet">
+<section id="Overview">
+	<div class="page-header">
+		<h1>Overview</h1>
+	</div>
+	<h3>Requires 'navigation.js'</h3>
+	<p>
+		<a href="history/js/navigation.js">navigation.js</a> takes care of creating the appropriate page states, 'back', 'page', and 'forward', for each page.  
+		Whenever navigating to another page, the current state will be 'page'.  This allows us to fire a 'back' and 'forward'
+		event from this state so that we can then manually call <code>history.back()</code> and <code>history.forward()</code>
+		when these states are fired.
+	</p>
+<pre class="prettyprint linenums lang-html">
+&lt;script src="history.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="navigation.js" type="text/javascript"&gt;&lt;/script&gt;
+</pre>
+	<h3>Cross-browser Compatible</h3>
+	<p>
+		Modern browsers have a History API built into them.  We use this when the browser supports it, otherwise, we fall
+		back to using <code>location.hash</code>.  This allows anyone to interact with the modern browser's History API in a
+		way even on browser's that don't support it.
+	</p>
+</section>
+<section id="API">
+	<div class="page-header">
+		<h1>API</h1>
+	</div>
+	<table class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<td>Property</td>
+				<td>Type</td>
+				<td>Parameters</td>
+				<td>Description</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>state</td>
+				<td>Function</td>
+				<td>None</td>
+				<td>Returns the current state of the history.</td>
+			</tr>
+			<tr>
+				<td>replaceState</td>
+				<td>Function</td>
+				<td>Object({state:String}), String url</td>
+				<td>Replaces the current state with the new state defined in the Object.</td>
+			</tr>
+			<tr>
+				<td>pushState</td>
+				<td>Function</td>
+				<td>Object({state:String}), String url</td>
+				<td>Creates a new state with the state defined in the Object.</td>
+			</tr>
+			<tr>
+				<td>back</td>
+				<td>Function</td>
+				<td>None</td>
+				<td>Delegates to <code>history.back()</code></td>
+			</tr>
+			<tr>
+				<td>forward</td>
+				<td>Function</td>
+				<td>None</td>
+				<td>Delegates to <code>history.forward()</code></td>
+			</tr>
+			<tr>
+				<td>go</td>
+				<td>Function</td>
+				<td>int numPages</td>
+				<td>Delegates to <code>history.go(numPages)</code></td>
+			</tr>
+			<tr>
+				<td>history</td>
+				<td>Array</td>
+				<td>None</td>
+				<td>
+					Current page flow for current application up to the last page visited in the flow. 
+					This is stored in <code>localStorage["history"]</code>, and reset when the application
+					context changes.
+				</td>
+			</tr>
+			<tr>
+				<td>currentPage</td>
+				<td>String</td>
+				<td>Empty</td>
+				<td>Returns the current page.</td>
+			</tr>
+			<tr>
+				<td>previousPage</td>
+				<td>Function</td>
+				<td>None</td>
+				<td>Returns the previous page in the flow from <code>localStorage["history"]</code></td>
+			</tr>
+			<tr>
+				<td>nextPage</td>
+				<td>Function</td>
+				<td>None</td>
+				<td>Returns the next page in the flow from <code>localStorage["history"]</code></td>
+			</tr>
+		</tbody>
+	</table>
+</section>
+<section id="Events">
+	<div class="page-header">
+		<h1>Events</h1>
+	</div>
+	<p>
+		To process the back or forward button clicks, create a listener on the Window.
+	</p>
+	<h3>Back Event</h3>
+	<p>
+<pre class="prettyprint linenums lang-js">
+$(window).on('back', function() {
+	// handle back event
+});
+</pre>
+	</p>
+	<h3>Forward Event</h3>
+	<p>
+<pre class="prettyprint linenums lang-js">
+$(window).on('forward', function() {
+	// handle forward event
+});
+</pre>
+	</p>
+</section>
+<section id="Usage">
+	<div class="page-header">
+		<h1>Usage</h1>
+		<p>
+			When the state of the history changes or the hash changes, a <code>popstate</code> or a <code>hashchange</code> event is fired.
+			By setting a back, page and forward state and setting ourselves in the 'page' state, we are able to fire custom events to detect
+			back and forward button clicks from the 'page' state.  This gives us the opportunity to do any processing before leaving the
+			page and before the page navigates away.  See how the example below changes the state, the content and detects the back and
+			forward button presses in relation to the 'page'state.
+		</p>
+		<div class="bs-docs-example">
+			<script>
+				History.pushState({state:'back', null});
+				History.pushState({state:'page', null});
+				History.pushState({state:'forward', null});
+			</script>
+			<a href="javascript:;" onclick="History.back();"> &lt;&lt; Back</a>
+			<a href="javascript:;" onclick="History.forward();" style="float:right;">Forward &gt;&gt;</a>
+		</div>
+<pre class="prettyprint linenums lang-js">
+&lt;script&gt;
+	History.pushState({state:'back', null});
+	History.pushState({state:'page', null});
+	History.pushState({state:'forward', null});
+&lt;/script&gt;
+&lt;a href="javascript:;" onclick="History.back();"&gt;Back&lt;/a&gt;
+&lt;a href="javascript:;" onclick="History.forward();"&gt;Forward&lt;/a&gt;
+</pre>
+	</div>
+</section>
+</div>

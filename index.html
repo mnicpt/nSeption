@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<title>nSeption</title>
+<link rel="dns-prefetch" href="//nseption.com">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script data-main="js/main-app.min.js" src="js/require.js"></script>
+<!--[if lte IE 9]>
+    <script src="js/lib/ie.js"></script>
+<![endif]-->
+<script src="nDesign/history/js/history.min.js"></script>
+<script src="nDesign/history/js/navigation.min.js"></script>
+
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" type="text/css" rel="stylesheet">
+<link href="css/docs.css" type="text/css" rel="stylesheet">
+<link href="css/prettify.css" type="text/css" rel="stylesheet">
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+
+</head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+				</button>
+				<a class="brand" href="./index.html">nSeption</a>
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+						<li class="active">
+							<a href="index.html">Home</a>
+						</li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown">
+							<a href="#codekata">nPractice</a>
+						</li>
+						<li class="divider-vertical"></li>
+						<li>
+							<a href="#history">History API</a>
+						</li>
+						<li class="divider-vertical"></li>
+						<li>
+							<a href="#grid">Grid API</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<header>
+		<h1>nSeption</h1>
+		<h3></h3>
+	</header>
+	<div id="main" class="container-fluid">
+		<div class="row-fluid">
+			<div class="span3 bs-docs-sidebar">
+				<ul class="nav nav-list bs-docs-sidenav affix-top">
+					<!-- links -->
+				</ul>
+			</div>
+			<div class="span9 main">
+				<div class="row-fluid">
+					<div class="codekata symbol"></div>
+					<div>
+						<h1 class="page-header">nPractice</h1>
+						<p>
+							Code Kata was created as a need to keep my own skills up.  While at it, I thought, why
+							not write a web app in JavaScript and drive it with JSON.  This lead to creating an nPractice, that 
+							would allow the user keep sharp on their data structures and algorithms while coding the answer in
+                            the browser.
+						</p>
+						<a href="#codekata">Be nPractice</a>
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="history symbol"></div>
+					<div>
+						<h1 class="page-header">History API</h1>
+						<p>
+							The History API came about because the current History.js in the industry was 2000 lines long,
+							and I also wanted to augment it with the ability to detect Back and Forward button
+							presses on the browser window.  Along with this, you will also be able to determine upon
+							the <code>back</code> or <code>forward</code> events, what page you are going to next
+							before leaving the page by tracking the pages visited within a single domain in local storage.
+						</p>
+						<a href="#history">View History API</a>
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="grid symbol"></div>
+					<div>
+						<h1 class="page-header">Grid API</h1>
+						<p>
+							The design for the Grid API came about for a desire to have a responsive grid system that wasn't
+							confined to set number of columns, nor do you need to define how many columns a 
+							particular cell takes up.  Rather, the number of columns is dictated by the number of
+							<code>cell</code> classes that are within a particular parent container.  There was also
+							a desire to take this and use it to define a layout as well.  Many of the Grid systems in
+							the industry require you to bring in a 1000 liner CSS file.  The Grid API has only
+							102 lines of CSS and 13 lines of JavaScript for allowing offsets within the grid; a
+							total of 115 lines of code. 
+						</p>
+						<a href="#grid">View Grid API</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

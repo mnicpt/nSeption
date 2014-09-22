@@ -1,0 +1,27 @@
+.kata section .btn{margin-top:18px;float:right;}
+.codeIt {
+	padding: 5% 0;
+}
+
+.codeIt textarea {
+	width: 97%;
+}
+
+.correct {
+	position:relative;
+	float:right;
+	color: green;
+}
+
+.incorrect {
+	position:relative;
+	float:right;
+	color: red;
+}
+.bs-docs-sidenav.affix-bottom {
+	bottom:auto;
+}
+@media ( max-width : 767px) {
+	section{padding-top:20px;padding-bottom:30px;}
+	.kata section .btn{float:none;}
+}
