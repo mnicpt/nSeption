@@ -146,7 +146,7 @@ define(function() {
 			}
             
             // load previous answer
-            kata.sections[section][parseInt(questionId, 10)].code = localStorage[section + questionId];
+            kata.sections[sectionName][parseInt(questionId, 10)].code = localStorage[sectionName + questionId];
 
 			prettyPrint();
 		}
@@ -160,6 +160,8 @@ define(function() {
 				name = $question.data('section');
 	
 			kata.sections[name][parseInt(id, 10)].code = $(this).val();
+                        // save to local storage
+            localStorage[name + parseInt(id, 10)] = kata.sections[name][parseInt(id, 10)].code;
 		});
 
 	$(document).on('click', '.bs-docs-sidenav a', function() {
@@ -191,9 +193,7 @@ define(function() {
 					+ kata.sections[section][parseInt(
 							questionId, 10)].code + "})();");
             
-            // save to local storage
-            localStorage[section + questionId] = kata.sections[section][parseInt(
-							questionId, 10)].code;
+            
 			$correctAnswer.removeClass();
 			$correctAnswer.show();
 			if (solution === kata.sections[section][parseInt(questionId, 10)].output) {
