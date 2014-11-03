@@ -145,6 +145,9 @@ define(function() {
 				$solution.append(answer);
 				$solution.append("<br />");
 			}
+            
+            // init previously coded answers
+            kata.sections[sectionName][parseInt(questionId, 10)].code = localStorage[sectionName + questionId];
 
 			prettyPrint();
 		}
