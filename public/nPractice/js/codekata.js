@@ -144,6 +144,9 @@ define(function() {
 				$solution.append(answer);
 				$solution.append("<br />");
 			}
+            
+            // load previous answer
+            kata.sections[section][parseInt(questionId, 10)].code = localStorage[section + questionId];
 
 			prettyPrint();
 		}
@@ -187,6 +190,10 @@ define(function() {
 					+ "';(function(){"
 					+ kata.sections[section][parseInt(
 							questionId, 10)].code + "})();");
+            
+            // save to local storage
+            localStorage[section + questionId] = kata.sections[section][parseInt(
+							questionId, 10)].code;
 			$correctAnswer.removeClass();
 			$correctAnswer.show();
 			if (solution === kata.sections[section][parseInt(questionId, 10)].output) {
