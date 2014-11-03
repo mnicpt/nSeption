@@ -129,7 +129,7 @@ define(function() {
 			question = questions[questionId];
 
 			// show question
-			$('.codeIt textarea').val(question.code);
+			$('.codeIt textarea').val(localStorage[sectionName + questionId]);
 			$('.codeIt').show();
 			$('.question').html(question.question).data({
 				number : questionId,
@@ -144,9 +144,6 @@ define(function() {
 				$solution.append(answer);
 				$solution.append("<br />");
 			}
-            
-            // load previous answer
-            kata.sections[sectionName][parseInt(questionId, 10)].code = localStorage[sectionName + questionId];
 
 			prettyPrint();
 		}
