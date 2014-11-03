@@ -8,9 +8,9 @@ define(function() {
 					output : true,
 					question : "<strong>Question 1.1 :</strong><br />Implement an algorithm to determine if a string has all unique characters.  What if you can't use additional data structures?",
 					answer : [
-							"var char, arr = args[0].split('');","",
-                            "for(char in arr) {",
-                            "   if (args[0].indexOf(char) != args[0].lastIndexOf(char)) {",
+							"var i = 0, arr = args[0].split('');","",
+                            "for(i; i < args[0].length; i++) {",
+                            "   if (i != args[0].lastIndexOf(arr[i])) {",
                             "      return false;",
                             "   }",
                             "}","",
