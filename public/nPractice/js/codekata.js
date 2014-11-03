@@ -8,12 +8,13 @@ define(function() {
 					output : true,
 					question : "<strong>Question 1.1 :</strong><br />Implement an algorithm to determine if a string has all unique characters.  What if you can't use additional data structures?",
 					answer : [
-							"public boolean uniqueChars(String str) {",
-							"   for(int index = 0; index < str.length(); index++) {",
-							"      if(index != str.lastIndexOf(str.charAt(index))) {",
-							"         return false;", "      }", "   }",
-
-							"   return true;", "}" ]
+							"var char, arr = args[0].split('');","",
+                            "for(char in arr) {",
+                            "   if (args[0].indexOf(char) != args[0].lastIndexOf(char)) {",
+                            "      return false;",
+                            "   }",
+                            "}","",
+                            "return true;" ]
 				},
 				2 : {
 					code : "",
