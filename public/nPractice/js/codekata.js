@@ -23,7 +23,7 @@ define(function() {
 					question : "<strong>Question 1.2 :</strong><br />Implement a function String reverse(String str). You cannot use the Collections library.  See if you can do it in place.",
 					answer : [
 							 "var i = 0",
-                             "chars = args.split('')",
+                             "chars = args[0].split('')",
                              "swap = function(arr, i, j) {",
                              "    var temp = arr[j];",
                              "    arr[j] = arr[i];",
