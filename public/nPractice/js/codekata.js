@@ -232,7 +232,7 @@ define(function() {
 		try {
 			var solution = eval("var args = "
 					+ kata.sections[section][parseInt(
-							questionId, 10)].input
+							questionId, 10)]["input"]
 					+ ";(function(){"
 					+ kata.sections[section][parseInt(
 							questionId, 10)].code + "})();");
