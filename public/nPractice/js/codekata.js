@@ -230,6 +230,10 @@ define(function() {
 				.data('number'), section = $question
 				.data('section'), $correctAnswer = $('#correctAnswer');
 		try {
+            alert("var args = "
+					+ kata.sections[section][parseInt(
+							questionId, 10)].input
+					+ ";(function(){");
 			var solution = eval("var args = "
 					+ kata.sections[section][parseInt(
 							questionId, 10)].input
