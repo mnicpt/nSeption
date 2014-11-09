@@ -67,7 +67,20 @@ define(function() {
 					input : "Keep practicing your skills",
 					output : "Keep%20practicing%20your%20skills",
 					question : "<strong>Question 1.4 :</strong><br />Write a method to encode all spaces in a string with %20.  Perform in place.",
-					answer : [ "Answer to come..." ]
+					answer : [ "var i = 0,", 
+                               "char,",
+                               "encodedString = [],",
+                               "chars = args.split('');",
+                               "",
+                               "for (i; i < chars.length; i++) {",
+                               "    if (chars[i] === " ") {",
+                               "      encodedString.push("%20");"
+                               "    } else {",
+                               "       encodedString.push(chars[i]);",
+                               "    }",
+                               "}",
+                               "",
+                               "return encodedString.join('');" ]
 				},
 				5 : {
 					code : "",
