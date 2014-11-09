@@ -73,8 +73,8 @@ define(function() {
                                "chars = args.split('');",
                                "",
                                "for (i; i < chars.length; i++) {",
-                               "    if (chars[i] === " ") {",
-                               "      encodedString.push("%20");"
+                               "    if (chars[i] === ' ') {",
+                               "      encodedString.push('%20');"
                                "    } else {",
                                "       encodedString.push(chars[i]);",
                                "    }",
