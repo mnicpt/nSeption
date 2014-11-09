@@ -87,7 +87,7 @@ define(function() {
 					input : "aabcccd",
 					output : "a2bc3d",
 					question : "<strong>Question 1.5 :</strong><br />Implement a method to compress a string using the counts of repeated characeters.  For example, aabcccd, would become a2bc3d.",
-					answer : [ "var chars = args.split('')",
+					answer : [ "var chars = args.split(''),",
                                "previousChar = chars[0],",
                                "compressedStr = chars[0],",
                                "count = 1,",
@@ -230,10 +230,10 @@ define(function() {
 				.data('number'), section = $question
 				.data('section'), $correctAnswer = $('#correctAnswer');
 		try {
-			var solution = eval("var args = '"
+			var solution = eval("var args = "
 					+ kata.sections[section][parseInt(
 							questionId, 10)].input
-					+ "';(function(){"
+					+ ";(function(){"
 					+ kata.sections[section][parseInt(
 							questionId, 10)].code + "})();");
             
