@@ -276,7 +276,7 @@ define(function() {
             
 			$correctAnswer.removeClass();
 			$correctAnswer.show();
-            alert(solution +" "+kata.sections[section][parseInt(questionId, 10)].output);
+            
 			if (solution === kata.sections[section][parseInt(questionId, 10)].output) {
 				$correctAnswer.addClass("correct");
 				$correctAnswer.text("Correct!");
