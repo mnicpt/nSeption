@@ -122,7 +122,7 @@ define(function() {
 				7 : {
 					code : "",
 					input : "[[1,3,2,5],[3,0,4,1],[7,5,8,3],[9,3,6,0]]",
-					output : "[[1,0,2,0],[0,0,0,0],[7,0,8,0],[0,0,0,0]]",
+					output : [[1,0,2,0],[0,0,0,0],[7,0,8,0],[0,0,0,0]],
 					question : "<strong>Question 1.7 :</strong><br />Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.",
 					answer : [ "var matrix = args",
                                "zeros = [],",
