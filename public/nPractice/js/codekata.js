@@ -64,7 +64,7 @@ define(function() {
 				},
 				4 : {
 					code : "",
-					input : "Keep practicing your skills",
+					input : 'Keep practicing your skills',
 					output : "Keep%20practicing%20your%20skills",
 					question : "<strong>Question 1.4 :</strong><br />Write a method to encode all spaces in a string with %20.  Perform in place.",
 					answer : [ "var i = 0,", 
@@ -84,7 +84,7 @@ define(function() {
 				},
 				5 : {
 					code : "",
-					input : "aabcccd",
+					input : 'aabcccd',
 					output : "a2bc3d",
 					question : "<strong>Question 1.5 :</strong><br />Implement a method to compress a string using the counts of repeated characeters.  For example, aabcccd, would become a2bc3d.",
 					answer : [ "var chars = args.split(''),",
