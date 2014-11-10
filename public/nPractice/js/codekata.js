@@ -18,7 +18,7 @@ define(function() {
 				},
 				2 : {
 					code : "",
-					input : [ "abcd" ],
+					input : "[ 'abcd' ]",
 					output : "dcba",
 					question : "<strong>Question 1.2 :</strong><br />Implement a function String reverse(String str). You cannot use the Collections library.  See if you can do it in place.",
 					answer : [
@@ -38,7 +38,7 @@ define(function() {
 				},
 				3 : {
 					code : "",
-					input : [ "abcdefg", "gdbacef" ],
+					input : "[ 'abcdefg', 'gdbacef' ]",
 					output : true,
 					question : "<strong>Question 1.3 :</strong><br />Given two strings, write a method to decide if one is a permutation of the other.",
 					answer : [
@@ -114,21 +114,21 @@ define(function() {
 				},
 				6 : {
 					code : "",
-					input : [[1,2,3],[4,5,6],[7,8,9]],
+					input : "[[1,2,3],[4,5,6],[7,8,9]]",
 					output : [[3,6,9],[2,5,8],[1,4,7]],
 					question : "<strong>Question 1.6 :</strong><br />Given an image by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees.  Do this in place.",
 					answer : [ "Answer to come..." ]
 				},
 				7 : {
 					code : "",
-					input : [[1,3,2,5],[3,0,4,1],[7,5,8,3],[9,3,6,0]],
+					input : "[[1,3,2,5],[3,0,4,1],[7,5,8,3],[9,3,6,0]]",
 					output : [[1,0,2,0],[0,0,0,0],[7,0,8,0],[0,0,0,0]],
 					question : "<strong>Question 1.7 :</strong><br />Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.",
 					answer : [ "Answer to come..." ]
 				},
 				8 : {
                     code : "",
-                    input : ['waterbottle', 'erbottlewa'],
+                    input : "['waterbottle', 'erbottlewa']",
                     output : true,
                     question : "<strong>Question 1.8 :</strong><br />Assume you have a method, isSubstring(str1, str2) that can check if one String is a substring of another. Given two Strings, write code to check if the second String is a rotation of the first using only one call to isSubstring(). e.g. 'waterbottle' is a rotation of 'erbottlewat'.",
                     answer : [ "Answer to come..." ]
@@ -147,7 +147,7 @@ define(function() {
 			stacks : {
 			    1 : {
                     code : "",
-                    input : ["a", "b", "c", "d", "e", "f"],
+                    input : "['a', 'b', 'c', 'd', 'e', 'f']",
                     output : "d",
                     question : "<strong>Question 3.1 :</strong><br />Describe how you could use a single array to implement three stacks. You are given an array representing three stacks with two items in each.  Write a function to pop an item off any of the three stacks.  For the sake of this problem, after writing your function, call it asking for the second item in the second stack.",
                     answer : [
@@ -157,7 +157,7 @@ define(function() {
 			trees : {
 			    1 : {
                     code : "",
-                    input : [ "abcd" ],
+                    input : "[ 'abcd' ]",
                     output : true,
                     question : "<strong>Question 4.1 :</strong><br />Write a function to check if a binary tree is balanced. For the sake of this problem, a balanced tree is when the heights of the two subtrees of any node never differ by one.",
                     answer : [
@@ -178,7 +178,7 @@ define(function() {
 			$('.question').html(question.question).data({
 				number : questionId,
 				section : sectionName
-			});
+			}); 
 
 			// set answer
 			$solution = $('.solution pre');
