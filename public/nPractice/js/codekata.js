@@ -233,7 +233,7 @@ define(function() {
 			var solution = eval("var args = "
                                 + kata.sections[section][parseInt(
 							questionId, 10)].input
-                                + "(function(){"
+                                + ";(function(){"
 					+ kata.sections[section][parseInt(
 							questionId, 10)].code + "})();");
             
