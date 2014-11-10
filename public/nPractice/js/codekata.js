@@ -4,7 +4,7 @@ define(function() {
 			arrays : {
 				1 : {
 					code : "",
-					input : [ "abcd" ],
+					input : "[ 'abcd' ]",
 					output : true,
 					question : "<strong>Question 1.1 :</strong><br />Implement an algorithm to determine if a string has all unique characters.  What if you can't use additional data structures?",
 					answer : [
@@ -230,10 +230,10 @@ define(function() {
 				.data('number'), section = $question
 				.data('section'), $correctAnswer = $('#correctAnswer');
 		try {
-			var solution = eval("var args = '"
+			var solution = eval("var args = "
                                 + kata.sections[section][parseInt(
 							questionId, 10)].input
-                                + "';(function(){"
+                                + ";(function(){"
 					+ kata.sections[section][parseInt(
 							questionId, 10)].code + "})();");
             
