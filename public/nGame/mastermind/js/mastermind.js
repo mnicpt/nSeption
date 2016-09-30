@@ -87,6 +87,7 @@ define(function () {
     }
 
     function generateMarbles() {
+        marbleContainer().innerHTML = "";
         for (var i = 0; i < colors.length; i++) {
             var newMarble = marbleTemplate().cloneNode(true);
             newMarble.style.display = "block";
