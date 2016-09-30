@@ -9,9 +9,10 @@ requirejs.config({
     paths: {
     	app			: '../app.min',
     	codekata	: '../../nPractice/js/codekata.min',
-    	grid		: '../../nDesign/grid/js/grid.min'
+    	grid		: '../../nDesign/grid/js/grid.min',
+        mastermind  : '../../nGame/mastermind/js/mastermind.min'
     }
 });
 
 //Load the main app module to start the app
-requirejs(["bootstrap.min", "app", "codekata", "grid"]);
+requirejs(["bootstrap.min", "app", "codekata", "grid", "mastermind"]);

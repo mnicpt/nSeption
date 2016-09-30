@@ -1,0 +1,47 @@
+
+<div class="content mastermind">
+    <link rel="stylesheet" type="text/css" href="nGame/mastermind/css/mastermind.css" />
+    <div class="main_wrapper">
+        <div class="header">Mastermind
+            <span>&reg;</span>
+        </div>
+        <div class="solution">
+            <div class="marble hidden">?</div>
+            <div class="marble hidden">?</div>
+            <div class="marble hidden">?</div>
+            <div class="marble hidden">?</div>
+            <div class="restart">
+                <button class="restartBtn">Restart</button>
+            </div>
+        </div>
+        <div class="game">
+            <!-- 10 guess rows -->
+        </div>
+        <div class="marbles">
+            <!-- marbles -->
+        </div>
+    </div>
+
+    <!-- row template -->
+    <div class="row template" style="display:none;">
+        <div class="guess">
+            <div class="marble"></div>
+            <div class="marble"></div>
+            <div class="marble"></div>
+            <div class="marble"></div>
+        </div>
+        <div class="hints">
+            <div class="pin"></div>
+            <div class="pin"></div>
+            <div class="pin"></div>
+            <div class="pin"></div>
+        </div>
+        <div class="checkBtn">
+            <button class="solveBtn">Check</button>
+        </div>
+    </div>
+
+    <!-- marble template -->
+    <div class="marble template" draggable="true" style="display:none;"></div>
+
+</div>

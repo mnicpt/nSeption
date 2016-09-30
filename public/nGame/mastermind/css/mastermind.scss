@@ -1,0 +1,226 @@
+@mixin test_border {
+    border: none;//1px solid red;
+}
+@mixin flexbox {
+    display: flex;
+    -webkit-display: -webkit-flex;
+    -webkit-display: -webkit-box;
+    -ms-display: -ms-flexbox;
+}
+@mixin flex($value) {
+    -webkit-box-flex: $value;
+    -webkit-flex: $value;
+    -ms-flex: $value;
+    flex: $value;
+}
+@mixin justify-content($value) {
+    -webkit-justify-content: $value;
+    -ms-flex-pack: distribute;
+    justify-content: $value;
+}
+@mixin align-items($value) {
+    -webkit-box-align: $value;
+    -webkit-align-items: $value;
+    -ms-flex-align: $value;
+    align-items: $value;
+}
+@mixin flex-flow($value) {
+    -webkit-flex-flow: $value;
+    -ms-flex-flow: $value;
+    flex-flow: $value;
+}
+@mixin align-content($value) {
+    -webkit-align-content: $value;
+    -ms-flex-line-pack: start;
+    align-content: $value;
+}
+
+//html, body {
+//    background-color: #222;
+//    height: 100%;
+//    margin:0;
+//}
+.header {
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+    span {
+        position: relative;
+        font-size: 20px;
+        bottom: 16px;
+    }
+}
+.main_wrapper {
+    position: relative;
+    @include test_border;
+    width: 320px;
+    margin: 20px auto;
+    //border:4px solid orange;
+    background: rgb(229, 225, 208);
+    box-sizing: border-box;
+
+    .solution, .game, .marbles {
+        @include flexbox;
+        @include justify-content(space-around);
+        @include align-items(center);
+        padding: 5px;
+        @include test_border;
+    }
+    .solution {
+        position: relative;
+        @include flexbox;
+        @include justify-content(space-around);
+        ;
+        height: 60px;
+        border-bottom: 1px solid black;
+
+        .marble {
+            @include flexbox;
+            @include justify-content(center);
+            @include align-items(center);
+            margin: 0 10.5px;
+
+            &.hidden {
+                background: #444;
+                color: white;
+                visibility:visible;
+            }
+        }
+        .restart {
+            @include flexbox;
+            @include justify-content(center);
+            @include align-items(center);
+            @include flex(2);
+            border-left: 1px solid black;
+
+            .restartBtn {
+                width: 80px;
+                height: 30px;
+                border-radius: 4px;
+                border: none;
+                background-color: rgb(17, 130, 192);
+                color: white;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .game {
+        @include flex-flow(row wrap);
+        @include align-content(flex-start);
+        .row {
+            display: flex;
+            width: 100%;
+            padding: 5px;
+            margin:0;
+            @include test_border;
+            border-bottom: 1px solid black;
+
+            &.current {
+                .checkBtn .solveBtn {
+                    visibility: visible;
+                }
+            }
+            .guess,
+            .hints,
+            .checkBtn {
+                @include test_border;
+                height: 40px;
+            }
+            .guess {
+                @include flexbox;
+                @include justify-content(space-around);
+                @include align-items(center);
+                @include flex(4);
+            }
+            .hints {
+                @include flexbox;
+                @include justify-content(center);
+                @include align-items(center);
+                @include flex-flow(row wrap);
+                @include flex(1);
+                border-left: 1px solid black;
+                .pin {
+                    width: 10px;
+                    height: 10px;
+                    border: 1px solid #222;
+                    border-radius: 5px;
+                    margin: 5px;
+                    background: #444;
+                    &.red {
+                        background: red;
+                    }
+                    &.white {
+                        background: white;
+                    }
+                    &:nth-child(3),
+                    &:nth-child(4) {
+                        margin-top: 0;
+                    }
+                }
+            }
+            .checkBtn {
+                @include flexbox;
+                @include justify-content(center);
+                @include align-items(center);
+                @include flex(1);
+
+                .solveBtn {
+                    height: 20px;
+                    line-height:0;
+                    color: white;
+                    background-color: rgba(27, 147, 76, .8);
+                    border-radius: 4px;
+                    border-color: none;
+                    border: 0;
+                    visibility: hidden;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgba(27, 147, 76, 1.0);
+                    }
+                }
+            }
+        }
+    }
+    .marbles {
+        height: 50px;
+    }
+    .marble {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #222;
+        border-radius: 15px;
+        background-color: #444;
+        &:hover {
+            cursor: pointer;
+        }
+        &.red {
+            background: red;
+        }
+        &.blue {
+            background: blue;
+        }
+        &.yellow {
+            background: yellow;
+        }
+        &.orange {
+            background: orange;
+        }
+        &.green {
+            background: limegreen;
+        }
+        &.brown {
+            background: tan;
+        }
+        &.white {
+            background: white;
+        }
+        &.black {
+            background: black;
+        }
+    }
+}

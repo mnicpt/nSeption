@@ -1,4 +1,4 @@
-define(["codekata", "grid", "prettify"], function(kata, grid) {
+define(["codekata", "grid", "mastermind", "prettify"], function(kata, grid, mastermind) {
 	var nDesign = {
 		pages : {
 			index : {
@@ -58,7 +58,14 @@ define(["codekata", "grid", "prettify"], function(kata, grid) {
 				title : "Grid API",
 				subtitle: "",
 				links : ["Cells", "Containers", "Offset Cells", "Dynamic Cells", "The Grid"]
-			}
+			},
+
+            mastermind : {
+                url : "./nGame/mastermind/mastermind.html",
+                title : "nGame",
+                subtitle: "",
+                links: ["Mastermind"]
+            }
 		},
 		
 		navigationEvent : typeof history.state === "object" ? "popstate" : "hashchange"
@@ -116,7 +123,9 @@ define(["codekata", "grid", "prettify"], function(kata, grid) {
 							kata.load(state);
 						} else if("grid" === state) {
 							grid.load();
-						}
+						} else if("mastermind" === state) {
+                            mastermind.init();
+                        }
 						// affix side bar
 						setTimeout(function() {
 							$('.bs-docs-sidenav').affix(
