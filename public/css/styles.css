@@ -1,87 +1,100 @@
-a:hover {cursor:pointer;}
+a:hover {
+  cursor: pointer; }
+
+.container-fluid {
+  width: 80%;
+  margin: 0px auto; }
 
 header {
-	border-top: 1px solid #fff;
-	text-align: center;
-	padding: 4%;
-	height: 90px;
-}
+  padding: 90px 40px 20px;
+  height: 90px;
+  width: 80%;
+  margin: 10px auto; }
+  header h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: #2989d8; }
 
-header h1 {
-	font-size: 120px;
-	font-weight: bold;
-	color: #2989d8;
-	height:65px;
-}
+section article:not(article:first-child) {
+  display: none; }
 
-.title{
-    color:#1e5799;
-    text-align:center;
-}
-#main {
-    margin-bottom:20px;
-}
-.symbol {
-	position:absolute;
-	float:left;
-	left:10%;
-	margin-top:30px;
-	width:75px;
-	height:75px;
-	border: 3px solid black;
-	box-shadow:inset 2px 2px 10px #333;
-}
-.codekata.symbol {
-	background: no-repeat url(../img/codekata.png);
-}
-.history.symbol {
-	background-color: orange;
-}
-.grid.symbol {
-	background-color: green;
-}
 /* bootstrap overrides */
-.navbar .nav li .dropdown-menu::before,.navbar .nav li .dropdown-menu::after
-	{
-	display: none;
-}
+.navbar {
+  margin-bottom: 0;
+  background-color: #fafafa;
+  background-image: -webkit-linear-gradient(top, #f2f2f2, white); }
+  .navbar .nav li .dropdown-menu::before, .navbar .nav li .dropdown-menu::after {
+    display: none; }
+
 .navbar-inner {
-	border:0;
-}
-.navbar-inverse .navbar-inner {
-	background-image:none;
-	background-color:#000;
-	opacity:.85;
-}
-body > .navbar .brand {
-	color:#444;
-}
-.navbar .divider-vertical {
-	margin:0;
-}
-@media ( max-width : 979px) {
-	header{margin-top:46px;}
-	.navbar-fixed-top{position:fixed;}
-	.navbar-inverse .navbar-inner {padding:3px;}
-}
-@media ( max-width : 767px) {
-	header {
-		height: 70px;
-		margin:46px -20px 20px;
-	}
-	header:after {
-		display:table;
-		line-height:0;
-		content:"";
-		clear:both;
-	}
-	header h1 {
-		font-size: 60px;
-	}
-	.navbar-fixed-top{position:fixed;padding:0 20px;}
-	.symbol{display:none;}
-}
-@media ( max-width : 480px) {
-	.symbol{display:none !important;}
-	.bs-docs-sidebar{display:none;}
-}
+  background-image: -webkit-linear-gradient(top, #f2f2f2, white);
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: 0; }
+
+.bs-docs-sidenav {
+  width: 228px;
+  margin-top: 30px; }
+
+body {
+  padding-top: 0; }
+
+.codeIt {
+  box-sizing: border-box;
+  padding: 5% 5%; }
+  .codeIt textarea {
+    width: 85%; }
+
+.correct {
+  color: green; }
+
+.incorrect {
+  color: red; }
+
+@media (max-width: 767px) {
+  body {
+    padding: 0; }
+
+  .container-fluid {
+    width: 95%; }
+
+  header {
+    height: 60px;
+    width: 95%;
+    padding: 10px; }
+    header h1 {
+      font-size: 60px; }
+
+  .navbar .nav {
+    margin: 0;
+    width: 100%; }
+    .navbar .nav > li > a {
+      padding-left: 10px;
+      padding-right: 0;
+      font-size: 10px; }
+
+  .bs-docs-sidenav {
+    width: 100%; }
+
+  .navbar .divider-vertical {
+    margin: 0 6px; }
+
+  .navbar-inner {
+    box-sizing: border-box;
+    padding: 0 6px; }
+
+  .bs-docs-sidenav > li:first-child > a,
+  .bs-docs-sidenav > li:last-child > a {
+    border-radius: 0; }
+
+  .questions {
+    width: 90%;
+    margin: 0 auto; }
+
+  .codeIt textarea {
+    width: 95%;
+    margin: 0;
+    margin-bottom: 5%; } }

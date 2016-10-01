@@ -14,7 +14,7 @@
   position: relative;
   border: none;
   width: 320px;
-  margin: 20px auto;
+  margin-left: 0;
   background: #e5e1d0;
   box-sizing: border-box; }
   .main_wrapper .solution, .main_wrapper .game, .main_wrapper .marbles {
