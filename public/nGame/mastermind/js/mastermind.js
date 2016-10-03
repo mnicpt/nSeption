@@ -53,19 +53,18 @@ define(function () {
     }
 
     function shuffle(array) {
-        var currentIndex = array.length,
+        var length = array.length,
             temporaryValue, randomIndex, shuffledArray = array.slice(0);
 
         // While there remain elements to shuffle...
-        while (0 !== currentIndex) {
+        for (var i = 0; i < 4; i++) {
 
             // Pick a remaining element...
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
+            randomIndex = Math.floor(Math.random() * length);
 
             // And swap it with the current element.
-            temporaryValue = shuffledArray[currentIndex];
-            shuffledArray[currentIndex] = shuffledArray[randomIndex];
+            temporaryValue = shuffledArray[i];
+            shuffledArray[i] = shuffledArray[randomIndex];
             shuffledArray[randomIndex] = temporaryValue;
         }
 
@@ -77,7 +76,6 @@ define(function () {
         for (var i = 0; i < 10; i++) {
             var clonedRow = row_template().cloneNode(true);
             clonedRow.style.display = "flex";
-
             if (i === current_row) {
                 clonedRow.className = "row current";
             }
@@ -117,13 +115,13 @@ define(function () {
 
         // get all marble in current row and validate duplicates
         var foundSimilar = false;
-        for (var i = 0; i < current_marbles().length; i++) {
-            var marble = current_marbles()[i];
-            if (marble.className.indexOf(marbleColor) !== -1) {
-                foundSimilar = true;
-                break;
-            }
-        }
+//        for (var i = 0; i < current_marbles().length; i++) {
+//            var marble = current_marbles()[i];
+//            if (marble.className.indexOf(marbleColor) !== -1) {
+//                foundSimilar = true;
+//                break;
+//            }
+//        }
 
         if (!foundSimilar) {
             e.target.className = "marble " + marbleColor;
@@ -132,6 +130,7 @@ define(function () {
 
     function configureDragOverDropEvents() {
         for (var i = 0; i < current_marbles().length; i++) {
+            current_marbles()[i].addEventListener("dragstart", dragstart);
             current_marbles()[i].addEventListener("dragover", dragover);
             current_marbles()[i].addEventListener("drop", drop);
         }
